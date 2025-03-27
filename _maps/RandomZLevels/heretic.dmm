@@ -800,8 +800,8 @@
 /area/awaymission/beach/heretic)
 "nL" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/armor/vest/marine,
-/obj/item/clothing/head/helmet/marine,
+/obj/item/clothing/suit/armor/vest/marine/security,
+/obj/item/clothing/head/helmet/marine/security,
 /turf/open/floor/plating,
 /area/awaymission/beach/heretic)
 "nM" = (
@@ -1276,7 +1276,10 @@
 /obj/structure/safe/floor{
 	desc = "A huge chunk of metal with a dial embedded in it. Fine print on the dial reads \"Hardened Marine confidential containment safe, guaranteed thermite resistant, explosion resistant, and assistant resistant.\""
 	},
-/obj/item/antag_granter/changeling,
+/obj/item/clothing/gloves/krav_maga/combatglovesplus,
+/obj/item/clothing/gloves/combat,
+/obj/item/clothing/shoes/combat/swat,
+/obj/item/clothing/shoes/combat/swat,
 /turf/open/floor/plating,
 /area/awaymission/beach/heretic)
 "uV" = (
@@ -1394,6 +1397,9 @@
 /obj/item/ammo_box/magazine/c40sol_rifle/standard,
 /obj/item/ammo_box/magazine/c40sol_rifle/standard,
 /obj/item/ammo_box/magazine/c40sol_rifle/standard,
+/obj/item/grenade/c4,
+/obj/item/grenade/c4,
+/obj/item/grenade/c4,
 /turf/open/floor/plating,
 /area/awaymission/beach/heretic)
 "wZ" = (
@@ -2547,9 +2553,15 @@
 /area/awaymission/beach/heretic)
 "OP" = (
 /obj/structure/closet,
-/obj/item/grenade/c4,
-/obj/item/grenade/c4,
-/obj/item/grenade/c4,
+/obj/item/clothing/glasses/sunglasses/big,
+/obj/item/clothing/glasses/sunglasses/big,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/clothing/under/rank/centcom/military,
+/obj/item/clothing/under/rank/centcom/military,
+/obj/item/storage/backpack/ert/security,
+/obj/item/storage/backpack/ert/security,
+/obj/item/clothing/mask/gas/hecu2,
 /turf/open/floor/plating,
 /area/awaymission/beach/heretic)
 "OR" = (
