@@ -1,0 +1,1632 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"cS" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"di" = (
+/obj/structure/door_assembly/door_assembly_vault,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"dF" = (
+/obj/structure/reagent_dispensers/fueltank/large,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"eo" = (
+/obj/effect/decal/cleanable/plasma,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"fw" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/ore_box,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"gv" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/effect/spawner/random/bedsheet{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"gN" = (
+/obj/structure/bed,
+/obj/effect/spawner/random/bedsheet{
+	pixel_x = 10
+	},
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"hK" = (
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"hV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"iA" = (
+/obj/structure/fence,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"iT" = (
+/obj/structure/safe/floor,
+/obj/item/photo/old,
+/obj/item/ammo_box/foambox/mini,
+/obj/item/gun/ballistic/shotgun/toy/riot,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"iW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"ko" = (
+/obj/structure/bed,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"my" = (
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"mB" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"oH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 4;
+	pixel_y = 5
+	},
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"pq" = (
+/obj/structure/bed,
+/obj/effect/spawner/random/bedsheet,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"pI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"pV" = (
+/obj/effect/decal/cleanable/plasma,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"qX" = (
+/obj/machinery/door/window/brigdoor/left/directional/east{
+	name = "Access Desk";
+	req_access = list("hop")
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"ra" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"rj" = (
+/obj/structure/closet/crate/secure/trashcart,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/obj/effect/spawner/random/trash,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"rr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/plasma,
+/obj/effect/decal/cleanable/ash/large,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"rs" = (
+/turf/closed/wall/mineral/wood,
+/area/space)
+"rK" = (
+/obj/structure/table_frame/wood,
+/obj/item/stack/sheet/mineral/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"so" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"tg" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"tO" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"tX" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/flare/candle,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"vS" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/pickaxe,
+/obj/item/mining_scanner,
+/obj/item/storage/bag/ore,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"wQ" = (
+/obj/structure/chair/pew{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"xp" = (
+/obj/structure/filingcabinet{
+	pixel_x = -10
+	},
+/obj/structure/filingcabinet{
+	pixel_x = 10
+	},
+/obj/structure/filingcabinet{
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"xx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/shaker,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"xA" = (
+/obj/effect/spawner/random/trash/deluxe_garbage,
+/obj/effect/spawner/random/trash,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"xF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/frame/machine/secured,
+/obj/item/stack/sheet/rglass,
+/obj/item/reagent_containers/cup/glass/bottle/champagne,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"yb" = (
+/obj/structure/table/wood,
+/obj/item/trash/can/food/peaches/maint,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"As" = (
+/obj/effect/spawner/random/trash,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"At" = (
+/obj/structure/table/wood,
+/obj/item/hatchet/wooden,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/plate_shard,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"AE" = (
+/obj/structure/bed,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"AF" = (
+/obj/item/stack/sheet/mineral/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"AJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Bj" = (
+/obj/structure/barricade/wooden,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"By" = (
+/obj/effect/decal/cleanable/ash,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"BD" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"BS" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/barricade/wooden/crude,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Df" = (
+/obj/structure/rack,
+/obj/item/food/salad/empty,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Ev" = (
+/turf/closed/wall/mineral/stone,
+/area/space)
+"FT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/ash/large,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"Ga" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/ore/slag{
+	pixel_x = -8;
+	pixel_y = -10
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 2;
+	pixel_y = -12
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 11;
+	pixel_y = -2
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 11;
+	pixel_y = -11
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 10;
+	pixel_y = 11
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = -6;
+	pixel_y = -7
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 7;
+	pixel_y = -9
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 2;
+	pixel_y = -4
+	},
+/obj/item/stack/ore/slag{
+	pixel_x = 10;
+	pixel_y = 5
+	},
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"GF" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/effect/spawner/random/bedsheet{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"GU" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/rods/twentyfive,
+/obj/item/stack/sheet/rglass/fifty,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"He" = (
+/obj/structure/closet/cabinet,
+/obj/item/gun/ballistic/rifle/boltaction/pipegun,
+/obj/effect/spawner/random/junk_shell,
+/obj/effect/spawner/random/junk_shell,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Hj" = (
+/obj/structure/girder,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"Ix" = (
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"IE" = (
+/obj/structure/rack,
+/obj/item/weldingtool/hugetank,
+/obj/item/stack/cable_coil,
+/obj/item/screwdriver,
+/obj/item/wrench,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"IK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/circuitboard/computer/slot_machine,
+/obj/structure/frame/computer,
+/obj/item/stack/cable_coil,
+/obj/item/shard{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/shard{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"IN" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = 9;
+	pixel_y = -4
+	},
+/obj/item/paper{
+	pixel_x = 34;
+	pixel_y = -3
+	},
+/obj/item/paper{
+	pixel_x = 32;
+	pixel_y = -13
+	},
+/obj/item/paper{
+	pixel_x = 30;
+	pixel_y = -1
+	},
+/obj/item/paper{
+	pixel_x = 26;
+	pixel_y = -11
+	},
+/obj/item/paper{
+	pixel_x = 17;
+	pixel_y = -9
+	},
+/obj/item/paper{
+	pixel_x = 20;
+	pixel_y = 0
+	},
+/obj/item/pen{
+	pixel_x = 35;
+	pixel_y = -10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Jt" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"JV" = (
+/obj/item/paper_bin{
+	pixel_x = 9;
+	pixel_y = -8
+	},
+/obj/item/paper{
+	pixel_x = 29;
+	pixel_y = -50
+	},
+/obj/item/paper{
+	pixel_x = 23;
+	pixel_y = -35
+	},
+/obj/item/paper{
+	pixel_x = 29;
+	pixel_y = -54
+	},
+/obj/item/paper{
+	pixel_x = 28;
+	pixel_y = -62
+	},
+/obj/item/paper{
+	pixel_x = 22;
+	pixel_y = -45
+	},
+/obj/item/paper{
+	pixel_x = 42;
+	pixel_y = -13
+	},
+/obj/item/paper{
+	pixel_x = 21;
+	pixel_y = -20
+	},
+/obj/item/paper{
+	pixel_x = 33;
+	pixel_y = -20
+	},
+/obj/item/paper{
+	pixel_x = 17;
+	pixel_y = -31
+	},
+/obj/item/paper{
+	pixel_x = 30;
+	pixel_y = -33
+	},
+/obj/item/paper{
+	pixel_x = 41;
+	pixel_y = -32
+	},
+/obj/item/paper{
+	pixel_x = 35;
+	pixel_y = -45
+	},
+/obj/item/paper{
+	pixel_x = 41;
+	pixel_y = -57
+	},
+/obj/item/paper{
+	pixel_x = 44;
+	pixel_y = -28
+	},
+/obj/item/paper{
+	pixel_x = 44;
+	pixel_y = -43
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Kf" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"KI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"KS" = (
+/obj/item/shard{
+	pixel_x = 0;
+	pixel_y = -4
+	},
+/obj/item/shard{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/shard{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/shard{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"LK" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/plate_shard,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Mf" = (
+/obj/structure/closet/cabinet,
+/obj/item/toy/gun,
+/obj/item/toy/ammo/gun,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"MU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"Na" = (
+/obj/structure/chair/pew/right{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Nc" = (
+/obj/structure/girder,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Nz" = (
+/obj/structure/fence/corner{
+	dir = 8
+	},
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"OT" = (
+/obj/effect/decal/cleanable/plasma,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"OU" = (
+/obj/structure/table_frame/wood,
+/obj/effect/decal/cleanable/glass,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"PD" = (
+/obj/effect/decal/cleanable/ash/large,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"Qk" = (
+/obj/effect/spawner/random/trash/garbage,
+/obj/effect/spawner/random/trash,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Qv" = (
+/obj/structure/fence/cut/large,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Rb" = (
+/obj/structure/closet/cabinet,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Ri" = (
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Ro" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/flare/candle,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"RE" = (
+/obj/item/shard{
+	pixel_x = 0;
+	pixel_y = -4
+	},
+/obj/item/shard{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/shard{
+	pixel_x = 5;
+	pixel_y = -5
+	},
+/obj/item/shard{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/obj/item/pen{
+	pixel_x = 9;
+	pixel_y = -11
+	},
+/obj/item/broken_bottle,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"RH" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/trash/can/food/peaches/maint,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"RQ" = (
+/obj/structure/fluff/clockwork/alloy_shards,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone/safe_planet,
+/area/space)
+"SR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"TK" = (
+/obj/structure/fence/cut/large{
+	dir = 8
+	},
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Uu" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Uw" = (
+/obj/structure/safe/floor,
+/obj/item/photo/old,
+/obj/item/ammo_box/foambox/riot/mini,
+/obj/item/gun/ballistic/automatic/pistol/toy,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Wk" = (
+/obj/structure/fence/corner,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"Xq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"XX" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/rack_parts,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Ya" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"Yw" = (
+/obj/structure/mineral_door/wood,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"YC" = (
+/obj/structure/chair/pew/left{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/safe_planet,
+/area/space)
+"ZI" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+
+(1,1,1) = {"
+my
+my
+my
+my
+my
+my
+my
+Bj
+rs
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+"}
+(2,1,1) = {"
+pV
+my
+my
+my
+my
+Nc
+Ev
+rs
+my
+OU
+Xq
+iW
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+rs
+rs
+rs
+Bj
+rs
+rs
+rs
+"}
+(3,1,1) = {"
+my
+my
+my
+my
+my
+eo
+Ev
+rs
+my
+OU
+Xq
+Xq
+Xq
+Xq
+my
+rs
+my
+my
+my
+my
+my
+Bj
+LK
+Df
+RH
+my
+Mf
+rs
+"}
+(4,1,1) = {"
+my
+my
+my
+my
+my
+FT
+Ev
+Ev
+Xq
+Jt
+Xq
+Xq
+Xq
+my
+my
+BS
+my
+my
+my
+my
+my
+rs
+Xq
+my
+At
+Xq
+Xq
+rs
+"}
+(5,1,1) = {"
+my
+my
+my
+my
+OT
+By
+Kf
+di
+Xq
+Jt
+Xq
+JV
+Xq
+Xq
+KS
+rs
+my
+my
+my
+my
+my
+BS
+Xq
+Xq
+rK
+Xq
+Xq
+rs
+"}
+(6,1,1) = {"
+my
+my
+my
+my
+PD
+RQ
+Ev
+Ev
+Yw
+rs
+rs
+Xq
+Xq
+Xq
+my
+BS
+my
+my
+my
+my
+my
+rs
+Xq
+Xq
+rK
+Xq
+my
+rs
+"}
+(7,1,1) = {"
+my
+my
+my
+rr
+Kf
+Ga
+Ev
+rs
+hK
+Uw
+rs
+Xq
+Xq
+Xq
+RE
+rs
+my
+my
+my
+my
+my
+rs
+my
+XX
+yb
+my
+AF
+Bj
+"}
+(8,1,1) = {"
+my
+my
+Hj
+Ev
+Ev
+Ev
+Ev
+rs
+tX
+gN
+rs
+IK
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+rs
+rs
+rs
+rs
+rs
+Yw
+rs
+"}
+(9,1,1) = {"
+my
+my
+my
+my
+my
+my
+my
+rs
+rs
+rs
+rs
+rs
+rs
+rj
+my
+my
+my
+my
+my
+my
+my
+my
+my
+rj
+rs
+hK
+iT
+rs
+"}
+(10,1,1) = {"
+my
+my
+my
+Qv
+Qv
+iA
+Qv
+iA
+iA
+Nz
+rj
+As
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+rs
+tX
+AE
+rs
+"}
+(11,1,1) = {"
+my
+my
+my
+my
+Ix
+Ix
+MU
+MU
+my
+ZI
+Qk
+Ri
+Ri
+As
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+rs
+rs
+rs
+rs
+"}
+(12,1,1) = {"
+my
+my
+TK
+Ix
+MU
+MU
+MU
+MU
+MU
+ZI
+xA
+rs
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+"}
+(13,1,1) = {"
+my
+my
+ZI
+MU
+MU
+MU
+MU
+MU
+MU
+ZI
+rj
+rs
+xp
+Uu
+so
+rs
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+"}
+(14,1,1) = {"
+my
+my
+TK
+MU
+Ix
+MU
+MU
+MU
+MU
+Wk
+iA
+rs
+my
+my
+my
+rs
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+"}
+(15,1,1) = {"
+my
+my
+ZI
+MU
+MU
+MU
+MU
+MU
+MU
+MU
+my
+rs
+ra
+IN
+qX
+rs
+my
+my
+my
+my
+my
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+"}
+(16,1,1) = {"
+my
+my
+ZI
+MU
+MU
+MU
+MU
+MU
+MU
+MU
+MU
+BS
+Xq
+Xq
+Xq
+BS
+my
+my
+my
+my
+my
+rs
+Ro
+GF
+rs
+Ro
+GF
+rs
+"}
+(17,1,1) = {"
+my
+my
+ZI
+MU
+MU
+MU
+MU
+MU
+MU
+MU
+my
+rs
+my
+my
+Xq
+rs
+my
+my
+my
+my
+my
+rs
+Rb
+Xq
+rs
+Rb
+Xq
+rs
+"}
+(18,1,1) = {"
+my
+my
+ZI
+MU
+MU
+MU
+MU
+MU
+MU
+Nz
+iA
+rs
+Xq
+Xq
+Xq
+rs
+my
+my
+my
+my
+my
+rs
+rs
+Ya
+rs
+rs
+Ya
+rs
+"}
+(19,1,1) = {"
+my
+my
+ZI
+MU
+MU
+MU
+MU
+MU
+MU
+ZI
+my
+rs
+YC
+wQ
+Na
+rs
+my
+my
+my
+my
+my
+rs
+Xq
+Xq
+Xq
+Xq
+Xq
+rs
+"}
+(20,1,1) = {"
+my
+my
+TK
+MU
+MU
+MU
+MU
+MU
+MU
+ZI
+my
+rs
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+Ya
+Xq
+Xq
+Xq
+Xq
+Xq
+hV
+"}
+(21,1,1) = {"
+my
+my
+ZI
+my
+MU
+MU
+MU
+MU
+my
+ZI
+MU
+BD
+MU
+MU
+mB
+rs
+my
+my
+my
+my
+my
+rs
+Xq
+vS
+fw
+vS
+Xq
+rs
+"}
+(22,1,1) = {"
+my
+my
+Wk
+iA
+iA
+Nz
+MU
+iA
+iA
+Wk
+MU
+rs
+MU
+MU
+ko
+rs
+my
+my
+my
+my
+my
+hV
+Xq
+fw
+rs
+fw
+Xq
+Ya
+"}
+(23,1,1) = {"
+my
+rs
+rs
+rs
+rs
+rs
+MU
+MU
+MU
+MU
+MU
+rs
+MU
+MU
+gv
+rs
+my
+my
+my
+my
+my
+rs
+Xq
+vS
+fw
+vS
+Xq
+rs
+"}
+(24,1,1) = {"
+my
+rs
+tg
+Xq
+GF
+rs
+iA
+iA
+iA
+iA
+iA
+rs
+dF
+GU
+IE
+rs
+my
+my
+my
+my
+my
+Ya
+Xq
+Xq
+Xq
+Xq
+Xq
+hV
+"}
+(25,1,1) = {"
+my
+rs
+He
+Xq
+Xq
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+rs
+Xq
+Xq
+Xq
+Xq
+Xq
+rs
+"}
+(26,1,1) = {"
+my
+rs
+ra
+Xq
+Xq
+cS
+Xq
+Xq
+ra
+SR
+pI
+ra
+SR
+pI
+ra
+rs
+my
+my
+my
+my
+my
+rs
+rs
+Ya
+rs
+rs
+Ya
+rs
+"}
+(27,1,1) = {"
+my
+rs
+rs
+rs
+rs
+rs
+xx
+Xq
+ra
+SR
+Xq
+KI
+KI
+Xq
+tO
+rs
+my
+my
+my
+my
+my
+rs
+Rb
+Xq
+rs
+Rb
+Xq
+rs
+"}
+(28,1,1) = {"
+my
+my
+my
+my
+my
+rs
+oH
+Xq
+ra
+SR
+pI
+ra
+ra
+SR
+Xq
+Ya
+my
+my
+my
+my
+my
+rs
+Ro
+pq
+rs
+Ro
+pq
+rs
+"}
+(29,1,1) = {"
+my
+my
+my
+my
+my
+rs
+AJ
+Xq
+ra
+SR
+Xq
+tO
+tO
+Xq
+tO
+rs
+my
+my
+my
+my
+my
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+"}
+(30,1,1) = {"
+my
+my
+my
+my
+my
+rs
+xF
+Xq
+ra
+SR
+pI
+ra
+SR
+pI
+ra
+rs
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+"}
+(31,1,1) = {"
+my
+my
+my
+my
+my
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+rs
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+my
+"}

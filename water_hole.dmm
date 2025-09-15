@@ -1,0 +1,224 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"b" = (
+/obj/structure/flora/coconuts,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"c" = (
+/obj/structure/spacevine,
+/turf/open/water/deep_beach,
+/area/space)
+"f" = (
+/obj/structure/spacevine,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"g" = (
+/obj/structure/flora/tree/palm,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"k" = (
+/turf/closed/wall/mineral/sandstone,
+/area/space)
+"m" = (
+/mob/living/basic/venus_human_trap{
+	faction = list("neutral");
+	name = "friendly venus human trap"
+	},
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"p" = (
+/obj/effect/spawner/random/bananas_or_nothing,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"x" = (
+/obj/structure/spacevine,
+/turf/open/misc/grass/safe_planet,
+/area/space)
+"A" = (
+/obj/effect/decal/remains/human,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"D" = (
+/obj/structure/statue/sandstone/venus,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"H" = (
+/obj/structure/flora/coconuts,
+/mob/living/carbon/human/species/monkey,
+/turf/open/misc/beach/sand/safe_planet,
+/area/space)
+"V" = (
+/obj/item/reagent_containers/cup/bucket/wooden,
+/turf/open/misc/grass/safe_planet,
+/area/space)
+
+(1,1,1) = {"
+a
+a
+a
+k
+a
+k
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+k
+a
+k
+k
+k
+k
+k
+a
+a
+"}
+(3,1,1) = {"
+a
+k
+k
+k
+f
+f
+f
+f
+p
+k
+k
+a
+"}
+(4,1,1) = {"
+a
+k
+p
+a
+f
+f
+a
+f
+b
+f
+k
+k
+"}
+(5,1,1) = {"
+k
+k
+a
+f
+f
+x
+x
+x
+f
+g
+f
+k
+"}
+(6,1,1) = {"
+k
+a
+f
+b
+f
+V
+c
+x
+f
+f
+a
+k
+"}
+(7,1,1) = {"
+k
+a
+g
+f
+f
+x
+x
+x
+f
+f
+p
+k
+"}
+(8,1,1) = {"
+k
+a
+f
+f
+f
+f
+f
+a
+g
+f
+a
+k
+"}
+(9,1,1) = {"
+k
+p
+A
+D
+b
+f
+f
+H
+f
+a
+k
+k
+"}
+(10,1,1) = {"
+k
+k
+a
+f
+f
+g
+f
+m
+a
+k
+k
+a
+"}
+(11,1,1) = {"
+a
+k
+k
+a
+a
+p
+a
+a
+k
+k
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+k
+k
+k
+k
+k
+k
+k
+a
+a
+a
+"}
