@@ -1,0 +1,34 @@
+{
+	"name": "Feet to Face",
+	"description" : "Smush your feet on their face",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% hovers %USER_PRONOUN_THEIR% feet above %TARGET%'s face.",
+		"%USER% presses their toes against %TARGET%'s cheeks.",
+		"%USER% smothers %TARGET%'s face under %USER_PRONOUN_THEIR% feet.",
+		"%USER% rubs %USER_PRONOUN_THEIR% feet up and down %TARGET%'s head.",
+		"%USER% massages %TARGET%'s face with %USER_PRONOUN_THEIR% feet."
+			],
+	"user_messages": [
+		"<span class='purple'>You let you feet dangle over %TARGET%'s face, daring %TARGET_PRONOUN_THEM% to meet them.</span>",
+		"<span class='purple'>You press your toes to %TARGET%'s cheeks, tracing teasing circles on %TARGET_PRONOUN_THEM%.</span>",
+		"<span class='purple'>You smother %TARGET%'s face with your feet, pressing into %TARGET_PRONOUN_THEM%. </span>",
+		"<span class='purple'>You rub up and down upon %TARGET%'s head with your feet.</span>",
+		"<span class='purple'>You give a tender massage %TARGET%'s face using your feet.</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>%USER% hovers %USER_PRONOUN_THEIR% toes just above your face, teasing you with them.</span>",
+		"<span class='purple'>Both sides of your vision are blocked off as your cheeks are smushed beneath %USER%'s soles. %USER% shoves them around in small circles.</span>",
+		"<span class='purple'>Your face is covered by %USER%'s feet, %USER% applies a small amount of pressure.</span>",
+		"<span class='purple'>Your head is rubbed up and down by %USER%'s feet. Your head tilts side to side with the motion.</span>",
+		"<span class='purple'>%USER% gives your face a foot-massage.</span>"
+	],
+	"user_pleasure": 0,
+	"user_arousal": 3,
+	"target_pleasure": 0,
+	"target_arousal": 5,
+	"lewd": 1,
+	"color": "pink"
+}

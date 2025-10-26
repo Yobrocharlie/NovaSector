@@ -1,0 +1,42 @@
+{
+	"name": "Deepthroat",
+	"description" : "Use your throat!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% deepthroats %TARGET%'s cock!",
+		"%USER% gags on %TARGET%'s shaft, their throat pulsing around it!",
+		"%USER% sucks on %TARGET%'s throbbing cock, pushing it down %USER_PRONOUN_THEIR% throat!",
+		"%USER% gags on %TARGET%'s throbbing cock!",
+		"%USER% hilts %TARGET%'s throbbing cock in %USER_PRONOUN_THEIR% mouth, getting it as deep as they can!",
+		"%USER% gurgles on %TARGET%'s shaft!",
+		"%USER% gags on %TARGET%'s cock, their throat pulsing around it!",
+		"%USER% hilts %TARGET%'s shaft in their mouth!"
+			],
+	"user_messages": [
+		"<span class='purple'>You feel %TARGET%'s hot shaft in your throat!</span>",
+		"<span class='purple'>You feel %TARGET%'s throbbing, twitchy cock in your throat.</span>",
+		"<span class='purple'>You feel %TARGET%'s hot member block your breathing!</span>",
+		"<span class='purple'>You feel yourself salivating on %TARGET%'s dick while it throbs in your throat!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER%'s warm throat around your cock.</span>",
+		"<span class='purple'>You feel your cock enveloped by %USER%'s wet warmth.</span>",
+		"<span class='purple'>You feel your cock throbbing and twitching inside of %USER%'s warm throat.</span>",
+		"<span class='purple'>You feel your cock getting sucked and gagged on by %USER%.</span>"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bj5.ogg"
+	],
+	"user_pleasure": 1,
+	"user_arousal": 5,
+	"target_pleasure": 7,
+	"target_arousal": 7,
+	"lewd": 1,
+	"color": "pink"
+}

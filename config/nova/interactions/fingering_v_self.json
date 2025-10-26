@@ -1,0 +1,27 @@
+{
+	"name": "Finger your vagina",
+	"description" : "Stick a digit in your widget!",
+	"usage": "self",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% sinks a finger into %USER_PRONOUN_THEIR% own pussy.",
+		"%USER% prods %USER_PRONOUN_THEIR% own slit lightly with %USER_PRONOUN_THEIR% finger in a pumping motion.",
+		"%USER% fingers themselves!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel your pussy clench around your finger.</span>",
+		"<span class='purple'>You prod your own slit with your finger.</span>",
+		"<span class='purple'>You feel your own vagina around your fingers.</span>"
+	],
+	"interaction_requires": [
+		"self_hand"
+	],
+	"target_required_parts": [
+		"vagina"
+	],
+	"user_pleasure": 3,
+	"user_arousal": 5,
+	"lewd": 1,
+	"color": "pink"
+}

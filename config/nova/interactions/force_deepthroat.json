@@ -1,0 +1,40 @@
+{
+	"name": "Force Deepthroat",
+	"description" : "Make them gag on your cock!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% shoves his cock into %TARGET%'s throat!",
+		"%USER% forces %TARGET% to gag on %USER_PRONOUN_THEIR% shaft!",
+		"%USER% facefucks %TARGET%!",
+		"%USER% makes %TARGET% gag using %USER_PRONOUN_THEIR% cock!",
+		"%USER% hilts %USER_PRONOUN_THEIR% throbbing cock in %TARGET%'s mouth, pushing it as deep as they can!",
+		"%USER% forces a gurgle out of %TARGET% using %USER_PRONOUN_THEIR% dick!"
+			],
+	"user_messages": [
+		"<span class='purple'>You shove your cock down %TARGET%'s throat!</span>",
+		"<span class='purple'>You force %TARGET% to gag on your cock!</span>",
+		"<span class='purple'>You facefuck %TARGET% until they are drooling!</span>",
+		"<span class='purple'>You feel %TARGET%'s throat pulse around your shaft as you ram it in!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER%'s hot cock shoved down your throat!</span>",
+		"<span class='purple'>You gag as %USER% makes you deepthroat %USER_PRONOUN_THEIR% dick!</span>",
+		"<span class='purple'>You feel %USER%'s cock throbbing and twitching inside your warm throat.</span>",
+		"<span class='purple'>You feel your throat massage %USER%'s shaft.</span>"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bj5.ogg"
+	],
+	"user_pleasure": 7,
+	"user_arousal": 7,
+	"target_pleasure": 2,
+	"target_arousal": 6,
+	"lewd": 1,
+	"color": "pink"
+}

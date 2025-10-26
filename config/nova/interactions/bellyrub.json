@@ -1,0 +1,28 @@
+{
+	"name": "Bellyrub",
+	"description" : "Rub their belly!",
+	"usage": "other",
+	"category": "Romance",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% rubs %USER_PRONOUN_THEIR% hands on %TARGET%'s belly, caressing %TARGET_PRONOUN_THEM% gently!",
+		"%USER% slides %USER_PRONOUN_THEIR% hands across %TARGET%'s abdomen, rubbing %TARGET_PRONOUN_THEIR% belly gently!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel a warm body against your hands as you rub %TARGET%'s belly!</span>",
+		"<span class='purple'>You massage %TARGET% gingerly as you rub %TARGET_PRONOUN_THEIR% belly!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER%'s warm hands rubbing and massaging your belly!</span>",
+		"<span class='purple'>You are caressed lovingly by %USER% as %USER_PRONOUN_THEY% give you a bellyrub!</span>"
+	],
+	"interaction_requires": [
+		"self_hand"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"sound/weapons/thudswoosh.ogg"
+	],
+	"sound_range": 7,
+	"color": "green"
+}

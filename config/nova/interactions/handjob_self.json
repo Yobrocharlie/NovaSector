@@ -1,0 +1,30 @@
+{
+	"name": "Jerk off",
+	"description" : "Jerk your own cock~",
+	"usage": "self",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% wraps %USER_PRONOUN_THEIR% hand around %USER_PRONOUN_THEIR% own cock, jerking it off.",
+		"%USER% squeezes %USER_PRONOUN_THEIR% own cock with %USER_PRONOUN_THEIR% hand in a jerking motion.",
+		"%USER% jerks themselves off!",
+		"%USER% squeezes precum out of the tip of %USER_PRONOUN_THEIR% cock using %USER_PRONOUN_THEIR% hand!",
+		"%USER% grasps %USER_PRONOUN_THEIR% own cock as they rapidly jerk off!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel your warm shaft in your hand.</span>",
+		"<span class='purple'>Your hand is covered in precum as you jerk off.</span>",
+		"<span class='purple'>You feel your throbbing cock in your hand.</span>",
+		"<span class='purple'>You gracefully pull on your cock with your hand, jerking yourself off.</span>"
+	],
+	"interaction_requires": [
+		"self_hand"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"user_pleasure": 3,
+	"user_arousal": 5,
+	"lewd": 1,
+	"color": "pink"
+}

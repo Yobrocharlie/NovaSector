@@ -1,0 +1,73 @@
+{
+	"name": "Ass fuck",
+	"description" : "Fuck them in the ass!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% thrusts %USER_PRONOUN_THEIR% dick into %TARGET%'s tight ass!",
+		"%USER% shoves %USER_PRONOUN_THEIR% dick into %TARGET%'s tight ass!",
+		"%USER% slides %USER_PRONOUN_THEIR% dick into %TARGET%'s tight ass!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% dick into %TARGET%'s asshole!",
+		"%USER% shoves %USER_PRONOUN_THEIR% dick into %TARGET%'s asshole!",
+		"%USER% slides %USER_PRONOUN_THEIR% dick into %TARGET%'s asshole!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s asshole!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s asshole!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s asshole!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s tight ass!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s tight ass!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s tight ass!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet dick into %TARGET%'s asshole!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet dick into %TARGET%'s asshole!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet dick into %TARGET%'s asshole!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet dick into %TARGET%'s tight ass!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet dick into %TARGET%'s tight ass!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet dick into %TARGET%'s tight ass!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% cock into %TARGET%'s tight ass!",
+		"%USER% shoves %USER_PRONOUN_THEIR% cock into %TARGET%'s tight ass!",
+		"%USER% slides %USER_PRONOUN_THEIR% cock into %TARGET%'s tight ass!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% cock into %TARGET%'s asshole!",
+		"%USER% shoves %USER_PRONOUN_THEIR% cock into %TARGET%'s asshole!",
+		"%USER% slides %USER_PRONOUN_THEIR% cock into %TARGET%'s asshole!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s asshole!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s asshole!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s asshole!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s tight ass!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s tight ass!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s tight ass!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet cock into %TARGET%'s asshole!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet cock into %TARGET%'s asshole!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet cock into %TARGET%'s asshole!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet cock into %TARGET%'s tight ass!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet cock into %TARGET%'s tight ass!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet cock into %TARGET%'s tight ass!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel %TARGET%'s anus, it feels very tight and warm.</span>",
+		"<span class='purple'>You feel %TARGET%'s ass, it feels very tight.</span>",
+		"<span class='purple'>You feel %TARGET%'s anus wrapped around your cock, it's warm and tight.</span>",
+		"<span class='purple'>You feel the walls of %TARGET%'s anus squeezing your cock, it's tight!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER%'s cock inside you, it's hard and throbbing.</span>",
+		"<span class='purple'>You feel %USER%'s slick cock sliding inside your ass, it feels great.</span>",
+		"<span class='purple'>Your ass clenches around %USER%'s cock inside you.</span>",
+		"<span class='purple'>Your feel your ass being spread by %USER%'s throbbing cock.</span>"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"target_required_parts": [
+		"anus"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bang1.ogg"
+	],
+	"user_pleasure": 6,
+	"user_arousal": 10,
+	"target_pleasure": 6,
+	"target_arousal": 10,
+	"lewd": 1,
+	"color": "pink"
+}

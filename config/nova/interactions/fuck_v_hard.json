@@ -1,0 +1,42 @@
+{
+	"name": "Fuck Vagina (HARD)",
+	"description" : "BREED them!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% viciously fucks %TARGET%, rapidly pushing %USER_PRONOUN_THEIR% cock inside of %TARGET_PRONOUN_THEIR% vagina.",
+		"%USER% rails %TARGET% using %USER_PRONOUN_THEIR% cock.",
+		"%USER% slams %USER_PRONOUN_THEIR% dick inside %TARGET%'s pussy.",
+		"%USER% jackhammers %TARGET%'s drooling pussy!",
+		"%USER% fucks %TARGET% silly!"
+	],
+	"user_messages": [
+		"<span class='purple'>You violently %TARGET%, ramming your cock inside of %TARGET_PRONOUN_THEIR% vagina.</span>",
+		"<span class='purple'>You rail %TARGET% using your cock.</span>",
+		"<span class='purple'>You shove your dick inside %TARGET%'s pussy.</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>%USER% rails you, slamming %USER_PRONOUN_THEIR% cock inside of your vagina.</span>",
+		"<span class='purple'>You feel %USER%'s cock slam against the wall of your womb!.</span>",
+		"<span class='purple'>%USER% shoves %USER_PRONOUN_THEIR% dick inside of your pussy, making you squirm!</span>",
+		"<span class='purple'>You squirm as %USER%'s tip breaches your womb!"
+	],
+	"target_required_parts": [
+		"vagina"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bang6.ogg"
+	],
+	"user_pleasure": 10,
+	"user_arousal": 10,
+	"target_pleasure": 11,
+	"target_arousal": 10,
+	"target_pain": 2,
+	"lewd": 1,
+	"color": "red"
+}

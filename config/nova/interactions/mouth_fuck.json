@@ -1,0 +1,69 @@
+{
+	"name": "Mouth fuck",
+	"description" : "Fuck them in the mouth!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% thrusts %USER_PRONOUN_THEIR% dick past %TARGET%'s lips!",
+		"%USER% shoves %USER_PRONOUN_THEIR% dick past %TARGET%'s lips!",
+		"%USER% slides %USER_PRONOUN_THEIR% dick past %TARGET%'s lips!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% dick into %TARGET%'s mouth!",
+		"%USER% shoves %USER_PRONOUN_THEIR% dick into %TARGET%'s mouth!",
+		"%USER% slides %USER_PRONOUN_THEIR% dick into %TARGET%'s mouth!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s mouth!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s mouth!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing dick into %TARGET%'s mouth!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing dick past %TARGET%'s lips!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing dick past %TARGET%'s lips!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing dick past %TARGET%'s lips!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet dick into %TARGET%'s mouth!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet dick into %TARGET%'s mouth!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet dick into %TARGET%'s mouth!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet dick past %TARGET%'s lips!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet dick past %TARGET%'s lips!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet dick past %TARGET%'s lips!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% cock past %TARGET%'s lips!",
+		"%USER% shoves %USER_PRONOUN_THEIR% cock past %TARGET%'s lips!",
+		"%USER% slides %USER_PRONOUN_THEIR% cock past %TARGET%'s lips!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% cock into %TARGET%'s mouth!",
+		"%USER% shoves %USER_PRONOUN_THEIR% cock into %TARGET%'s mouth!",
+		"%USER% slides %USER_PRONOUN_THEIR% cock into %TARGET%'s mouth!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s mouth!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s mouth!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s mouth!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% throbbing cock past %TARGET%'s lips!",
+		"%USER% shoves %USER_PRONOUN_THEIR% throbbing cock past %TARGET%'s lips!",
+		"%USER% slides %USER_PRONOUN_THEIR% throbbing cock past %TARGET%'s lips!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet cock into %TARGET%'s mouth!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet cock into %TARGET%'s mouth!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet cock into %TARGET%'s mouth!",
+		"%USER% thrusts %USER_PRONOUN_THEIR% wet cock past %TARGET%'s lips!",
+		"%USER% shoves %USER_PRONOUN_THEIR% wet cock past %TARGET%'s lips!",
+		"%USER% slides %USER_PRONOUN_THEIR% wet cock past %TARGET%'s lips!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel %TARGET%'s mouth, it feels very warm and wet.</span>",
+		"<span class='purple'>You feel %TARGET%'s mouth, it feels warm and wet.</span>",
+		"<span class='purple'>You feel %TARGET%'s mouth wrapped around your cock, it's warm and wet.</span>",
+		"<span class='purple'>You feel %TARGET%'s mouth salivating on your cock!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER%'s cock inside your mouth, it's hard and throbbing.</span>",
+		"<span class='purple'>You feel %USER%'s slick cock sliding inside your mouth, it feels hot.</span>",
+		"<span class='purple'>Your lips wrap around %USER%'s cock inside your mouth.</span>",
+		"<span class='purple'>Your feel your mouth being fucked by %USER%'s throbbing cock.</span>"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bj5.ogg"
+	],
+	"user_pleasure": 6,
+	"user_arousal": 10,
+	"target_pleasure": 0,
+	"target_arousal": 7,
+	"lewd": 1,
+	"color":"pink"
+}

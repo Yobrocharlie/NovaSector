@@ -1,0 +1,54 @@
+{
+	"name": "Worship cock",
+	"description" : "Smother your face against their junk!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% smothers %TARGET%'s cock!",
+		"%USER% pants on %TARGET%'s tip, making them twitch!",
+		"%USER% looks up at %TARGET% as they drag their tongue along %TARGET_PRONOUN_THEIR% hot shaft!",
+		"%USER% pants on %TARGET%'s balls as they worship their cock with their face!",
+		"%USER% massages %TARGET%'s throbbing cock in %USER_PRONOUN_THEIR% hand, sensually rubbing them as they passionately kiss their base!",
+        "%USER% maintains eye contact as they worship %TARGET%'s throbbing cock!",
+        "%USER% presses %USER_PRONOUN_THEIR% face against %TARGET%'s shaft and pants, making %USER_PRONOUN_THEIR%self squirm in excitement!",
+        "%USER% mutters as they desperately try to please %TARGET%'s fat cock %USER_PRONOUN_THEIR% mouth!",
+        "%USER% passionately kisses %TARGET%'s shaft...",
+        "%USER% passionately kisses %TARGET%'s tip...,",
+        "%USER% passionately kisses %TARGET%'s taint...",
+        "%USER% lewdly huffs and pants desperately on %TARGET%'s cock!"
+			],
+	"user_messages": [
+		"<span class='purple'>You feel %TARGET%'s dick twitch and throb on your face!</span>",
+		"<span class='purple'>You feel %TARGET%'s throbbing cock smear along your face!.</span>",
+		"<span class='purple'>You feel %TARGET%'s hot member desperately throb as you lovingly kiss it!</span>",
+		"<span class='purple'>You feel yourself salivating on %TARGET%'s dick as you drag your tongue along %TARGET_PRONOUN_THEIR% shaft!</span>",
+        "<span class='purple'>You can taste %TARGET%'s shaft as you drag your open lips along %TARGET_PRONOUN_THEIR% cock!</span>",
+         "<span class='purple'>You salivate as you drool all over %TARGET%'s shaft...</span>",
+        "<span class='purple'>You burn up in arrousal as you demote yourself to only worshipping %TARGET%'s fat, throbbing cock!</span>",
+        "<span class='purple'>You can feel yourself drip as you desperately smother, lick and kiss %TARGET%'s cock!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You watch as %USER% happily devotes %USER_PRONOUN_THEIR%self to worshiping your cock!</span>",
+		"<span class='purple'>Your hips buck as your cock lewdly rubs against %USER%'s face...</span>",
+		"<span class='purple'>You feel your cock throb and twitch as %USER% grabs it and begins kissing it!</span>",
+		"<span class='purple'>You make eye contact with %USER% as they slowly and sensually drag %USER_PRONOUN_THEIR% tongue from base to tip!.</span>",
+        "<span class='purple'>You lean back and relax as %USER% works your length...</span>",
+        "<span class='purple'>You lean back and relax as %USER% loudly slurps between your legs...</span>",
+        "<span class='purple'>You feel %USER%'s hot breath hit your shaft, making you twitch!</span>"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bj7.ogg"
+	],
+	"user_pleasure": 1,
+	"user_arousal": 7,
+	"target_pleasure": 2,
+	"target_arousal": 7,
+	"lewd": 1,
+	"color": "pink"
+
+}

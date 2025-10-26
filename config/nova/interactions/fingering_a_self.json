@@ -1,0 +1,30 @@
+{
+	"name": "Finger your ass",
+	"description" : "Stick a finger in your pucker!",
+	"usage": "self",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% sinks a finger into %USER_PRONOUN_THEIR% own asshole, sawing in and out slowly.",
+		"%USER% prods %USER_PRONOUN_THEIR% own rear entrance with %USER_PRONOUN_THEIR% finger in a pumping motion.",
+		"%USER% fingers %USER_PRONOUN_THEIR% own ass!",
+		"%USER% tickles %USER_PRONOUN_THEIR% own asshole using %USER_PRONOUN_THEIR% fingers!"
+			],
+	"user_messages": [
+		"<span class='purple'>You feel your tight asshole around your finger.</span>",
+		"<span class='purple'>You prod against your tight pucker as you finger yourself.</span>",
+		"<span class='purple'>You feel your tight rear entrance squeezing your finger.</span>",
+		"<span class='purple'>You gracefully tickle your own asshole with your fingers.</span>"
+	],
+	"interaction_requires": [
+		"self_hand"
+	],
+	"target_required_parts": [
+		"anus"
+	],
+	"user_pleasure": 3,
+	"user_arousal": 5,
+	"user_pain": 2,
+	"lewd": 1,
+	"color": "pink"
+}

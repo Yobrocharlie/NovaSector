@@ -1,0 +1,37 @@
+{
+	"name": "Tease clit",
+	"description" : "Hit their weakspot!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% rubs %TARGET%'s clit!",
+		"%USER% teases %TARGET% pleasure knob!",
+		"%USER% gives %TARGET%'s clitoris a pinch!",
+		"%USER% squeezes %TARGET%'s clit between his fingers!",
+		"%USER% flicks %TARGET%'s clit!"
+			],
+	"user_messages": [
+		"<span class='purple'>You rub %TARGET%'s clit!</span>",
+		"<span class='purple'>You tease %TARGET%'s pleasure knob!</span>",
+		"<span class='purple'>You give %TARGET%'s clitoris a pinch!</span>",
+		"<span class='purple'>You squeeze %TARGET%'s clit with your fingers!</span>",
+		"<span class='purple'>You flick %TARGET%'s clit!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>%USER% rubs your clit!</span>",
+		"<span class='purple'>Your groin is set on fire as %USER% teases your pleasure knob!</span>",
+		"<span class='purple'>%USER% pinches your clitoris!</span>",
+		"<span class='purple'>%USER% squeezes your clit with his fingers!</span>",
+		"<span class='purple'>You flinch as %USER% flicks your clit!</span>"
+	],
+	"target_required_parts": [
+		"vagina"
+	],
+	"user_pleasure": 0,
+	"user_arousal": 6,
+	"target_pleasure": 12,
+	"target_arousal": 20,
+	"lewd": 1,
+	"color": "pink"
+}

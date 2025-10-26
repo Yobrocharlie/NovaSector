@@ -1,0 +1,44 @@
+{
+	"name": "Sheath fuck",
+	"description" : "Fuck them in the sheath!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% aligns %USER_PRONOUN_THEIR% throbbing cock with %TARGET%'s tight sheath as they slide it inside!",
+		"%USER% shoves %USER_PRONOUN_THEIR% dick into %TARGET%'s tight sheath",
+		"%USER% fucks %TARGET%'s tight sheath, making %TARGET_PRONOUN_THEIR% balls jiggle!",
+		"%USER% rams %USER_PRONOUN_THEIR% cock into %TARGET%'s warm sheath!",
+		"%USER% forces %USER_PRONOUN_THEIR% throbbing cock into %TARGET%'s sheath, forcing %TARGET_PRONOUN_THEIR% cock to the side.",
+		"%USER% assaults %TARGET%'s tight sheath!",
+		"%USER% rams %USER_PRONOUN_THEIR% hips into %TARGET%'s crotch, %USER_PRONOUN_THEIR% cock sliding inside %TARGET_PRONOUN_THEIR% sheath!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel %TARGET%'s tight sheath wrapped round your cock as you fuck it.</span>",
+		"<span class='purple'>You ram your cock into %TARGET%'s wet and warm sheath, %TARGET_PRONOUN_THEIR% balls jiggling.</span>",
+		"<span class='purple'>Your cock is squeezed hard by %TARGET%'s sheath, %TARGET_PRONOUN_THEIR% cock head rubbing against yours.</span>",
+		"<span class='purple'>You feel %TARGET%'s warm sheath wrapped around your cock as you thrust your hips into %TARGET_PRONOUN_THEIR% crotch!</span>",
+		"<span class='purple'>%TARGET% squirms as your cock prys open %TARGET_PRONOUN_THEIR% tight sheath, it's so warm!</span>",
+		"<span class='purple'>You feel %TARGET%'s balls against your own as you fuck %TARGET_PRONOUN_THEIR% sheath!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel your sheath spread open by %USER%'s fat cock.</span>",
+		"<span class='purple'>Your sheath is spread wide and hard by %USER%'s thick dick!</span>",
+		"<span class='purple'>Your tight sheath squirms as it's forced open by %USER%'s cock, your own cock being forced to the side.</span>",
+		"<span class='purple'>Your warm sheath squirms as %TARGET%'s throbbing dick enters it!</span>",
+		"<span class='purple'>%USER% rams %USER_PRONOUN_THEIR% hips against your sheath, %USER_PRONOUN_THEIR% cock uncomfortably forcing it's way through.</span>",
+		"<span class='purple'>You feel %USER%'s balls against your own as they fuck your sheath!</span>"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"user_pleasure": 6,
+	"user_arousal": 8,
+	"target_pleasure": 6,
+	"target_arousal": 8,
+	"lewd": 1,
+	"color":"pink"
+}

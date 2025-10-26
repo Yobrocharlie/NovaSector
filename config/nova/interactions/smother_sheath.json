@@ -1,0 +1,34 @@
+{
+	"name": "Smother sheath",
+	"description" : "Smother their sheath with your face!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% smothers %TARGET%'s sheath with %USER_PRONOUN_THEIR% face!",
+		"%USER% drags %USER_PRONOUN_THEIR% face along %TARGET%'s sheath!",
+		"%USER% brushes %USER_PRONOUN_THEIR% face against %TARGET%'s sheath!",
+		"%USER% smothers %TARGET%'s twitching sheath with %USER_PRONOUN_THEIR% face!"
+	],
+	"user_messages": [
+		"<span class='purple'>You drag your face across %TARGET%'s warm sheath.</span>",
+		"<span class='purple'>You feel and smell %TARGET%'s sheath as it rubs against your face.</span>",
+		"<span class='purple'>You feel your face pressing against %TARGET%'s sheath, it's warm.</span>",
+		"<span class='purple'>You feel %TARGET%'s sheath throbbing against your face!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER%'s face squishing against your sheath!</span>",
+		"<span class='purple'>You feel %USER%'s face rubbing away at your sheath.</span>",
+		"<span class='purple'>Your cock twitches from having %USER%'s face smothering your sheath!</span>",
+		"<span class='purple'>You feel warmth around your sheath as %USER% smothers it with %USER_PRONOUN_THEIR% face.</span>"
+	],
+	"sound_range": 7,
+	"target_required_parts": [
+		"penis"
+	],
+	"user_pleasure": 0,
+	"user_arousal": 4,
+	"target_pleasure": 2,
+	"target_arousal": 2,
+	"lewd": 1
+}

@@ -1,0 +1,33 @@
+{
+	"name": "Sensually bite",
+	"description" : "Chomp chomp~",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% sensually bites %TARGET%!",
+		"%USER% chomps %TARGET% and growls!",
+		"%USER% teasingly nibbles %TARGET%!"
+	],
+	"user_messages": [
+		"<span class='purple'>You sensually bite %TARGET%!</span>",
+		"<span class='purple'>You chomp %TARGET% and growl!</span>",
+		"<span class='purple'>You teasingly nibble %TARGET%!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>%USER% sensually bites you!</span>",
+		"<span class='purple'>%USER% chomps you and growls!</span>",
+		"<span class='purple'>%USER% teasingly nibbles you!</span>"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"sound/weapons/bite.ogg"
+	],
+	"sound_range": 3,
+	"color": "pink",
+	"user_pleasure": 0,
+	"user_arousal": 2,
+	"target_pleasure": 1,
+	"target_arousal": 4,
+	"lewd": 1
+}

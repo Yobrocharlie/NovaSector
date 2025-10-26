@@ -1,0 +1,39 @@
+{
+	"name": "Frot",
+	"description" : "Rub your dick against theirs.",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% grasps %TARGET%'s cock, squeezing it against %USER_PRONOUN_THEIR% own as they run %USER_PRONOUN_THEIR% hand up and down the two cocks.",
+		"%USER% slides %USER_PRONOUN_THEIR% cock against %TARGET%'s, jerking them both off.",
+		"%USER% thrusts %USER_PRONOUN_THEIR% cock against %TARGET%'s cock, precum oozing out of the tips.",
+		"%USER%'s balls rest against %TARGET%'s, while their cocks rub against eachother.",
+		"%USER% squeezes %TARGET%'s dick against %USER_PRONOUN_THEIR% own, the cockheads smooshing up against eachother.",
+		"%USER% pushes %USER_PRONOUN_THEIR% cockhead against %TARGET%'s shaft, oozing precum along the throbbing member."
+	],
+	"user_messages": [
+		"<span class='purple'>You feel your cock pushing against %TARGET%'s throbbing warm cock.</span>",
+		"<span class='purple'>Your cock squeezes and throbs against %TARGET%'s dick.</span>",
+		"<span class='purple'>You feel precum covering your dick as you rub it against %TARGET%'s.</span>",
+		"<span class='purple'>Your throbbing cock squeezes against %TARGET%'s.</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel your cock pushing against %USER%'s throbbing warm cock.</span>",
+		"<span class='purple'>Your cock squeezes and throbs against %USER%'s dick.</span>",
+		"<span class='purple'>Your cock is squeezed by %USER%'s firm grip as they slide %USER_PRONOUN_THEIR% cock up and down your shaft.</span>",
+		"<span class='purple'>Your throbbing cock is squeezed firmly against %USER%'s.</span>"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"target_required_parts": [
+		"penis"
+	],
+	"user_pleasure": 6,
+	"user_arousal": 10,
+	"target_pleasure": 6,
+	"target_arousal": 10,
+	"lewd": 1,
+	"color": "pink"
+}

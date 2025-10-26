@@ -1,0 +1,33 @@
+{
+	"name": "Choke",
+	"description" : "Restrict a partner's airflow.",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% places %USER_PRONOUN_THEIR% hand around %TARGET%'s neck, choking %TARGET_PRONOUN_THEM%!",
+		"%USER% constricts %TARGET%'s' neck, squeezing!",
+		"%USER% begins to choke %TARGET%'s airway!",
+		"%USER% squeezes %TARGET%'s throat!"
+			],
+	"user_messages": [
+		"<span class='purple'>You place your hand around %TARGET%'s neck, firmly choking %TARGET_PRONOUN_THEM%!</span>",
+		"<span class='purple'>Your fingers constrict %TARGET%'s neck.</span>",
+		"<span class='purple'>You place your hand around %TARGET%'s airway and start choking %TARGET_PRONOUN_THEM%.</span>",
+		"<span class='purple'>You grab %TARGET% by the neck, squeezing %TARGET_PRONOUN_THEIR% throat!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel %USER% place %USER_PRONOUN_THEIR% hand on your neck and choke you. It's difficult to breathe!</span>",
+		"<span class='purple'>You choke as %USER% constricts your neck!</span>",
+		"<span class='purple'>You feel a little light-headed as %USER% puts pressure on your airway!</span>",
+		"<span class='purple'>You can feel %USER%'s fingers squeezing your throat!</span>"
+	],
+	"use_sound": 1,
+	"sound_possible": [
+		"sound/weapons/thudswoosh.ogg"
+	],
+	"sound_range": 7,
+	"target_pain": 4,
+	"lewd": 1,
+	"color": "red"
+}

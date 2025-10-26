@@ -1,0 +1,40 @@
+{
+	"name": "Gut punch!",
+	"description" : "Punch them in the gut HARD! (causes a lot of pain!)",
+	"usage": "other",
+	"category": "Miscellaneous",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% brutally thrusts %USER_PRONOUN_THEIR% fist into %TARGET%'s abdomen!",
+		"%USER% shoves %USER_PRONOUN_THEIR% fist against %TARGET%'s gut as hard as they can!",
+		"%USER% rams %USER_PRONOUN_THEIR% fist right into %TARGET%'s stomach!",
+		"%USER% pounds %TARGET%'s abdomen with %USER_PRONOUN_THEIR% fist!",
+		"%USER% violently assaults %TARGET%'s stomach with %USER_PRONOUN_THEIR% fist!",
+		"%USER% rams %USER_PRONOUN_THEIR% closed fist against %TARGET%'s gut!"
+	],
+	"user_messages": [
+		"<span class='purple'>You feel %TARGET%'s abdominal muscles spasm as you brutally punch %TARGET_PRONOUN_THEM%.</span>",
+		"<span class='purple'>You ram your fist against %TARGET%'s gut as hard as you can, leaving them convulsing in pain!</span>",
+		"<span class='purple'>You feel the muscles of %TARGET%'s belly spasming as you punch %TARGET_PRONOUN_THEM%!</span>",
+		"<span class='purple'>%TARGET% squirms as you punch %TARGET_PRONOUN_THEIR% stomach hard!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>You feel your gut explode in pain as it's punched by %USER%'s fist!</span>",
+		"<span class='purple'>Your stomach convulses in pain against %USER%'s tightly balled fist!</span>",
+		"<span class='purple'>You feel a jolt of pain as %USER% brutally rams %USER_PRONOUN_THEIR% closed fist against your gut!</span>",
+		"<span class='purple'>%USER% painfully rams %USER_PRONOUN_THEIR% fist right against your abdomen!</span>"
+	],
+	"interaction_requires": [
+		"self_hand"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"sound/effects/hit_punch.ogg",
+		"sound/weapons/cqchit2.ogg",
+		"sound/weapons/cqchit1.ogg",
+		"sound/weapons/genhit1.ogg"
+	],
+	"sound_range": 7,
+	"target_pain": 10,
+	"color":"red"
+}

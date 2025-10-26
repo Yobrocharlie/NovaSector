@@ -1,0 +1,31 @@
+{
+	"name": "Thighjob",
+	"description" : "Slide your cock between their thighs!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% hugs %TARGET%, sliding %USER_PRONOUN_THEIR% cock between %TARGET%'s thighs!",
+		"%USER% humps %TARGET%, %USER_PRONOUN_THEIR% cock peeking out between %TARGET%'s thighs!",
+		"%USER%'s dick is squeezed between %TARGET%'s thighs!"
+			],
+	"user_messages": [
+		"<span class='purple'>You hug %TARGET%, sliding your cock between %TARGET_PRONOUN_THEIR% thighs.</span>",
+		"<span class='purple'>You hump %TARGET% with your cock sandwiched between %TARGET_PRONOUN_THEIR% thighs.</span>",
+		"<span class='purple'>You feel %TARGET%'s thighs squeezing your dick!</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>%USER% hugs you, sliding %USER_PRONOUN_THEIR% cock between your thighs!</span>",
+		"<span class='purple'>%USER% humps you with %USER_PRONOUN_THEIR% cock sandwiched between your thighs.</span>",
+		"<span class='purple'>You feel your thighs squeeze around %USER%'s dick!</span>"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"user_pleasure": 7,
+	"user_arousal": 5,
+	"target_pleasure": 0,
+	"target_arousal": 3,
+	"lewd": 1,
+	"color": "pink"
+}

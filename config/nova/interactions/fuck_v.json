@@ -1,0 +1,39 @@
+{
+	"name": "Fuck (vagina)",
+	"description" : "Push your cock inside their vagina!",
+	"usage": "other",
+	"category": "Sex",
+	"distance_allowed": 0,
+	"message": [
+		"%USER% fucks %TARGET%, pushing %USER_PRONOUN_THEIR% cock inside of %TARGET_PRONOUN_THEIR% vagina.",
+		"%USER% humps %TARGET% using %USER_PRONOUN_THEIR% cock.",
+		"%USER% pushes %USER_PRONOUN_THEIR% dick inside %TARGET%'s pussy."
+	],
+	"user_messages": [
+		"<span class='purple'>You fuck %TARGET%, pushing your cock inside of %TARGET_PRONOUN_THEIR% vagina.</span>",
+		"<span class='purple'>You hump %TARGET% using your cock.</span>",
+		"<span class='purple'>You push your dick inside %TARGET%'s pussy.</span>"
+	],
+	"target_messages": [
+		"<span class='purple'>%USER% fucks you, pushing %USER_PRONOUN_THEIR% cock inside of your vagina.</span>",
+		"<span class='purple'>%USER% humps you using %USER_PRONOUN_THEIR% cock.</span>",
+		"<span class='purple'>%USER% pushes %USER_PRONOUN_THEIR% dick inside of your pussy.</span>"
+	],
+	"target_required_parts": [
+		"vagina"
+	],
+	"user_required_parts": [
+		"penis"
+	],
+	"sound_use": 1,
+	"sound_possible": [
+		"modular_nova/modules/modular_items/lewd_items/sounds/bang6.ogg"
+	],
+	"sound_range": 3,
+	"user_pleasure": 7,
+	"user_arousal": 5,
+	"target_pleasure": 7,
+	"target_arousal": 5,
+	"lewd": 1,
+	"color": "pink"
+}
