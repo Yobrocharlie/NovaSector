@@ -1562,7 +1562,7 @@
 /obj/structure/barricade/wooden/crude,
 /obj/structure/barricade/security,
 /obj/effect/mapping_helpers/airlock/locked,
-/turf/open/space/basic,
+/turf/open/floor/wood/tile,
 /area/shuttle/abandoned/medbay)
 
 (1,1,1) = {"
