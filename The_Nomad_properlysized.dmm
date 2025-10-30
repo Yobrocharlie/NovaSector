@@ -3,41 +3,58 @@
 /obj/structure/dresser,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "aj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "an" = (
 /obj/machinery/power/shuttle_engine/heater,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "aQ" = (
 /obj/machinery/stasis{
 	dir = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "aS" = (
 /obj/structure/closet/crate/forging_items,
+/obj/item/stack/sheet/runed_metal/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/obj/item/stack/sheet/mineral/coal/ten,
+/obj/item/stack/sheet/mineral/coal/ten,
+/obj/item/forging/billow,
+/obj/item/forging/hammer,
+/obj/item/forging/tongs,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
+"aW" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "aX" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "bb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "bd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -46,13 +63,13 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "bj" = (
 /obj/machinery/computer/crew{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "bs" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -61,19 +78,19 @@
 	dir = 6
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "bW" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "cr" = (
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "cz" = (
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "cJ" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -84,24 +101,31 @@
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "cK" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "cS" = (
 /obj/machinery/telecomms/receiver/preset_left,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "cY" = (
 /obj/structure/dresser,
+/obj/item/machete{
+	pixel_x = 6;
+	pixel_y = -3;
+	name = "Combat machete";
+	desc = "A forged machete with a slight serrated back purpose build for combat.";
+	block_chance = 75
+	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "da" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "dg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -112,28 +136,28 @@
 	pixel_y = -24
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "dj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "do" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "dq" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "du" = (
 /obj/vehicle/sealed/mecha/durand,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "dK" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -142,7 +166,16 @@
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"dL" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
+"dM" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "dY" = (
 /obj/machinery/door/window/survival_pod/left/directional/south{
 	req_access = list("syndicate")
@@ -151,11 +184,12 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"ea" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "ec" = (
-/obj/structure/closet/crate/secure/weapon{
-	req_access = list("syndicate")
-	},
+/obj/structure/closet/crate/secure/weapon,
 /obj/item/ammo_box/c9mm{
 	pixel_y = 6
 	},
@@ -182,44 +216,44 @@
 /obj/item/gun_maintenance_supplies,
 /obj/item/gun_maintenance_supplies,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "ed" = (
 /obj/structure/chair/sofa/right/maroon{
 	dir = 1
 	},
 /turf/open/floor/carpet/orange,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "ee" = (
 /obj/structure/table/optable,
 /obj/machinery/iv_drip,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "eg" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "er" = (
 /obj/machinery/chem_master/fullupgrade,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "eF" = (
 /obj/structure/closet/secure_closet/freezer/meat/all_access,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "eH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/turretid,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "eJ" = (
 /turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "eP" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "fe" = (
 /obj/item/kirbyplants/organic/plant17{
 	pixel_x = -7;
@@ -233,13 +267,13 @@
 	desc = "Some slaped together bluespace transiver made from what ammounts to scrap held together by duct tape and wires pluged irectly to the television."
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "ft" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/west,
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "fx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -248,7 +282,7 @@
 	dir = 10
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "fN" = (
 /obj/machinery/button/door/directional/east,
 /obj/structure/table,
@@ -262,24 +296,36 @@
 	},
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "fQ" = (
-/obj/structure/closet/crate/secure/freezer/pizza,
+/obj/structure/closet/crate/secure/freezer/pizza{
+	req_access = null
+	},
+/obj/item/pizzabox/meat,
+/obj/item/pizzabox/meat,
+/obj/item/pizzabox/pineapple,
+/obj/item/pizzabox/vegetable,
+/obj/item/pizzabox/vegetable,
+/obj/item/pizzabox/margherita,
+/obj/item/pizzabox/margherita,
+/obj/item/pizzabox/margherita,
+/obj/item/pizzabox/margherita/robo,
+/obj/item/pizzabox/margherita/robo,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "fR" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "ga" = (
 /obj/machinery/power/solar/deployable/plastitaniumglass,
 /obj/structure/cable,
 /turf/open/floor/iron/solarpanel/airless,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "gd" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "gm" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Mess Hall"
@@ -292,21 +338,21 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "gn" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "go" = (
-/obj/machinery/rnd/server,
-/turf/open/floor/engine,
-/area/space)
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "gx" = (
 /obj/machinery/power/shuttle_engine/huge,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "gD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -314,11 +360,11 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "gJ" = (
 /obj/machinery/digital_clock/directional/west,
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "gO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -326,18 +372,21 @@
 /obj/effect/spawner/random/food_or_drink/dinner,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "gU" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "gZ" = (
 /obj/structure/chair/office/tactical,
 /turf/open/floor/carpet/orange,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "he" = (
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
+"hh" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "hm" = (
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -347,7 +396,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "hy" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -356,18 +405,18 @@
 /obj/effect/mapping_helpers/apc/unlocked,
 /obj/machinery/power/terminal,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "hB" = (
 /obj/machinery/light/floor,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "hG" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
 	},
 /obj/machinery/duct,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "hR" = (
 /obj/structure/bodycontainer/crematorium{
 	dir = 8;
@@ -378,28 +427,28 @@
 	pixel_x = 25
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "ig" = (
 /obj/machinery/duct/supply,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "io" = (
 /obj/structure/decorative/shelf/crates,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "ip" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "iw" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /obj/machinery/recharge_station,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "iC" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
@@ -409,7 +458,7 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "iN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -419,7 +468,7 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "iR" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -430,38 +479,38 @@
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "jh" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "jl" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "jA" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/fans/tiny,
 /obj/structure/cable,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "jD" = (
 /obj/machinery/ltsrbt,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "jT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "jX" = (
 /obj/structure/closet,
 /obj/item/ammo_box/magazine/wt550m9,
@@ -486,35 +535,48 @@
 /obj/item/suppressor/standard,
 /obj/machinery/camera/xray/directional/north,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "ke" = (
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/quantum_server,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "kg" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
 /obj/machinery/duct,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"km" = (
+/obj/machinery/vending/wardrobe/sec_wardrobe{
+	onstation = 0
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "kB" = (
 /obj/machinery/door/window/survival_pod/left/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "kF" = (
 /obj/machinery/door/airlock/glass{
 	name = "Kitchen"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
+"kI" = (
+/obj/structure/cable,
+/obj/machinery/modular_computer/preset/engineering{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "kO" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "kY" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -526,16 +588,24 @@
 	pixel_y = 5
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"lf" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"lj" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "lk" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/effect/turf_decal/vg_decals/atmos/oxygen,
 /turf/open/floor/engine/o2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "lo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "lp" = (
 /obj/structure/table/bronze,
 /obj/item/reagent_containers/cup/glass/waterbottle/large{
@@ -546,7 +616,8 @@
 	pixel_x = 1;
 	pixel_y = 22;
 	name = "Unica 6";
-	desc = "A very rare and very old double action revolver chambered in 357 magnum."
+	desc = "A very rare and very old double action revolver chambered in 357 magnum.";
+	projectile_damage_multiplier = 5
 	},
 /obj/item/ammo_box/speedloader/c357{
 	pixel_x = -7;
@@ -561,11 +632,17 @@
 	pixel_y = 9
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "lu" = (
 /obj/structure/closet/crate/radiation,
+/obj/item/clothing/head/utility/radiation,
+/obj/item/clothing/head/utility/radiation,
+/obj/item/clothing/suit/utility/radiation,
+/obj/item/clothing/suit/utility/radiation,
+/obj/item/construction/rcd/loaded/upgraded,
+/obj/item/construction/rcd/loaded/upgraded,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "lA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -574,33 +651,33 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "lB" = (
 /obj/machinery/self_actualization_device,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "lK" = (
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "mn" = (
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "ms" = (
 /obj/structure/table/glass,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "mv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "mB" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/engine/n2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "mP" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -614,19 +691,23 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "mQ" = (
 /obj/structure/disposaloutlet{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "nf" = (
 /obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"nu" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "nv" = (
 /obj/machinery/mineral/ore_redemption{
 	dir = 4;
@@ -637,21 +718,27 @@
 /obj/machinery/door/window/survival_pod/left/directional/west,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "nB" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "nO" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/firealarm/directional/south,
+/obj/machinery/button/door/directional/north{
+	id = "bridgelockdown";
+	name = "Bridge Blastdoors";
+	pixel_y = -24
+	},
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "nR" = (
 /obj/structure/cable,
 /obj/machinery/door/window/survival_pod/left/directional/north,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "nY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -660,13 +747,13 @@
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "ol" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "oo" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -675,41 +762,54 @@
 	dir = 8
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "oA" = (
 /obj/machinery/computer/dna_console,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "oF" = (
-/obj/machinery/computer/terminal/dangerous_research/front_desk{
-	dir = 4
-	},
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "oG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "oJ" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "oK" = (
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"oM" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/conveyor_switch/oneway{
+	id = "mining";
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "oU" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"oV" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "oX" = (
 /obj/structure/punching_bag,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "pd" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -720,90 +820,93 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "pl" = (
 /turf/open/floor/carpet/orange,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "pn" = (
 /obj/machinery/door/airlock/vault{
-	name = "Freighter Vault"
+	name = "Armory"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "pw" = (
 /obj/machinery/chem_heater/withbuffer,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "px" = (
 /obj/effect/spawner/random/structure/closet_private,
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "pz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/vending/dinnerware,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "pA" = (
 /obj/machinery/chem_heater/withbuffer,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "pF" = (
 /obj/machinery/power/shuttle_engine/heater,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "pI" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "pJ" = (
 /obj/machinery/fax/auto_name,
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "pO" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "pQ" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 10
 	},
 /obj/machinery/plumbing/synthesizer,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"qa" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "qc" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/grille,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "qe" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "qk" = (
 /obj/structure/chair/wood/wings,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "qq" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "qu" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/engine/o2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "qw" = (
 /obj/machinery/light/directional/north,
 /obj/structure/rack/gunrack,
@@ -811,29 +914,41 @@
 /obj/item/gun/ballistic/shotgun/riot/sol,
 /obj/item/gun/ballistic/shotgun/riot/sol,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
+"qP" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/grille,
+/obj/machinery/mineral/stacking_unit_console{
+	pixel_x = -32;
+	pixel_y = -32
+	},
+/turf/open/floor/plating/reinforced,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "qS" = (
 /obj/machinery/duct,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "qU" = (
 /obj/machinery/plumbing/synthesizer/water_synth,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "qV" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 10
 	},
 /obj/machinery/plumbing/synthesizer/colony_hydroponics,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"rg" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "rl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "rn" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -843,16 +958,16 @@
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "rq" = (
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "rr" = (
 /obj/machinery/light_switch/directional,
 /obj/machinery/jukebox,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "rz" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
@@ -865,7 +980,19 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"rV" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"sa" = (
+/obj/machinery/porta_turret/centcom_shuttle,
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/vault)
+"sd" = (
+/obj/machinery/porta_turret/centcom_shuttle,
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "sh" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -874,11 +1001,11 @@
 	dir = 6
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "sq" = (
 /obj/machinery/telecomms/processor/preset_one,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "ss" = (
 /obj/structure/table/bronze,
 /obj/item/modular_computer/laptop/gamer,
@@ -889,45 +1016,79 @@
 	name = "Runed Crest"
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "st" = (
 /obj/machinery/power/shuttle_engine/huge,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
+"su" = (
+/obj/structure/rack/gunrack,
+/obj/item/gun/energy/laser/carbine{
+	name = "Customised laser carbine";
+	projectile_damage_multiplier = 1.75
+	},
+/obj/item/gun/ballistic/shotgun/riot{
+	name = "Ancient M500";
+	desc = "A positively ancient shotgun, the markings on it reveal that it was fabricated in the 2020s. Despite its age it is still a well preserved and functioning shotgun. How in the hell did Rafael get a hold of this relic?";
+	sawn_desc = "Why? It was a perfectly good shotgun and now its shorter... Raf will fix it later.";
+	projectile_damage_multiplier = 2
+	},
+/obj/structure/closet/generic/wall/empty{
+	pixel_x = 23;
+	pixel_y = 0;
+	name = "AMMO"
+	},
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/gun_maintenance_supplies,
+/obj/item/gun_maintenance_supplies,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "sw" = (
 /obj/machinery/door/airlock/vault{
-	name = "Freighter Vault"
+	name = "Armory"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "sG" = (
 /obj/machinery/light/directional/south,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "sI" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "sK" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/surgery_tray/full,
+/obj/item/clothing/gloves/latex/nitrile/expeditionary_corps,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "sM" = (
 /obj/structure/closet/crate/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/suit/space/eva,
+/obj/item/clothing/suit/space/eva,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "sO" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
@@ -935,60 +1096,60 @@
 	dir = 4
 	},
 /turf/open/floor/engine/n2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "th" = (
 /obj/machinery/digital_clock/directional/west,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "ti" = (
 /obj/structure/mirror/directional/west,
 /obj/structure/sink/directional/east,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "tl" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "tz" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "tH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "tL" = (
 /obj/machinery/telecomms/relay/preset/auto,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "tS" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "tZ" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "ul" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/reagent_dispensers/watertank,
+/obj/machinery/portable_atmospherics/canister/plasma,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "us" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "uz" = (
 /obj/structure/table,
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "uA" = (
 /obj/structure/closet,
 /obj/item/ammo_box/magazine/ammo_stack/c310_strilka/prefilled/ap,
@@ -1009,7 +1170,7 @@
 /obj/item/suppressor/standard,
 /obj/item/suppressor/standard,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "uH" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -1017,11 +1178,11 @@
 /obj/structure/table/wood/fancy/black,
 /obj/effect/spawner/random/food_or_drink/dinner,
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "uM" = (
 /obj/machinery/rnd/production/colony_lathe,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "uW" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Medbay"
@@ -1032,7 +1193,7 @@
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "vc" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
@@ -1042,14 +1203,14 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "vh" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/silver{
 	name = "Bathroom"
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "vp" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Main quarters"
@@ -1059,14 +1220,14 @@
 	id = "bridgelockdown"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "vA" = (
 /obj/machinery/power/shuttle_engine/heater,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "vI" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 9
@@ -1079,31 +1240,31 @@
 	},
 /obj/machinery/camera/xray/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "wo" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/camera/xray/directional/north,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "wr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "wC" = (
 /obj/structure/bodycontainer/morgue{
 	dir = 8
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "wD" = (
 /obj/machinery/light/directional/south,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "wJ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1112,43 +1273,40 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "xa" = (
 /obj/structure/cable,
 /obj/machinery/porta_turret/centcom_shuttle,
 /turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "xi" = (
-/obj/machinery/power/smes/full,
-/obj/structure/cable,
+/obj/machinery/power/smes/super/full,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "xn" = (
 /obj/machinery/power/shuttle_engine/propulsion,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "xp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
+"xv" = (
+/obj/machinery/porta_turret/centcom_shuttle,
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "xE" = (
 /obj/item/gps/computer,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "xI" = (
 /obj/machinery/telecomms/server/presets,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "xO" = (
 /obj/machinery/light/directional/north,
-/obj/item/wallframe/telescreen/entertainment{
-	pixel_x = -16;
-	pixel_y = 29;
-	desc = "a wall mounted flat-screen smart TV, quite an old model that you are surprised even still works.";
-	name = "Flat-screen smart TV"
-	},
 /obj/structure/closet/mini_fridge,
 /obj/item/reagent_containers/cup/glass/bottle/holywater,
 /obj/item/reagent_containers/cup/glass/bottle/juice/pineapplejuice,
@@ -1163,14 +1321,20 @@
 /obj/item/food/burger/baconburger,
 /obj/item/reagent_containers/cup/bowl/soup/stew,
 /obj/item/reagent_containers/cup/bowl/soup/stew,
+/obj/item/wallframe/telescreen/entertainment{
+	pixel_x = -16;
+	pixel_y = 29;
+	desc = "a wall mounted flat-screen smart TV, quite an old model that you are surprised even still works.";
+	name = "Flat-screen smart TV"
+	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "xS" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "xT" = (
 /obj/machinery/door/airlock/mining/glass{
 	name = "Loading Bay"
@@ -1179,7 +1343,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "yc" = (
 /obj/structure/cable,
 /obj/structure/closet/crate,
@@ -1205,12 +1369,20 @@
 /obj/item/stack/sheet/plasteel/fifty,
 /obj/item/stack/sheet/plastic/fifty,
 /obj/item/stack/sheet/plastic/fifty,
+/obj/item/circuitboard/machine/bluespace_miner,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "yl" = (
 /obj/machinery/duct/supply,
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/obj/machinery/door/airlock/vault{
+	name = "Water heater"
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"yp" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "yD" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -1221,20 +1393,30 @@
 	all_products_free = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"yG" = (
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "yL" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "yN" = (
 /obj/machinery/jukebox,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"yZ" = (
+/obj/machinery/vending/wardrobe/syndie_wardrobe/interdyne{
+	onstation = 0
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "zr" = (
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "zy" = (
 /obj/machinery/button/door/directional/south{
 	id = "freighterbay";
@@ -1245,22 +1427,20 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "zG" = (
 /obj/structure/cable,
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "zJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /obj/structure/weightmachine,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "zK" = (
 /obj/structure/rack,
 /obj/item/cultivator,
@@ -1269,7 +1449,7 @@
 /obj/item/secateurs,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "zM" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
@@ -1277,11 +1457,11 @@
 	dir = 4
 	},
 /turf/open/floor/engine/o2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "zY" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/open/floor/iron/submarine_vents,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Ac" = (
 /obj/item/stack/medical/suture/medicated,
 /obj/item/stack/medical/suture/medicated,
@@ -1300,8 +1480,22 @@
 /obj/item/stack/medical/synth_repair,
 /obj/item/stack/medical/bone_gel,
 /obj/structure/closet/generic,
+/obj/item/defibrillator/loaded,
+/obj/item/defibrillator/loaded,
+/obj/item/storage/medkit,
+/obj/item/storage/medkit,
+/obj/item/storage/medkit/brute,
+/obj/item/storage/medkit/fire,
+/obj/item/storage/medkit/o2,
+/obj/item/storage/medkit/robotic_repair/preemo/stocked,
+/obj/item/storage/medkit/tactical/premium,
+/obj/item/storage/medkit/toxin,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"Ah" = (
+/obj/machinery/light/floor,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Ak" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -1310,7 +1504,7 @@
 	pixel_y = -9
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "Av" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1318,13 +1512,13 @@
 	dir = 9
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "AB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "AJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/disposal/bin,
@@ -1332,7 +1526,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "AK" = (
 /obj/machinery/atmospherics/miner/nitrogen{
 	name = "Nitrogen dimentional window";
@@ -1340,28 +1534,28 @@
 	},
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /turf/open/floor/engine/n2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "AS" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "AX" = (
 /obj/structure/drain,
 /obj/machinery/shower/directional/west,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Bg" = (
 /obj/machinery/computer/communications,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Bh" = (
 /obj/structure/plaque{
 	desc = "A plaque with The Nomad etched on it denominating the ship you currently stand, the XEDRA logo and shifting runes can be found on the bottom of it";
 	name = "Ship name plate"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Bj" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -1371,21 +1565,30 @@
 	pixel_y = -4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Bn" = (
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"Bo" = (
+/obj/machinery/mineral/stacking_machine{
+	input_dir = 2
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"Bt" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "Bw" = (
 /obj/structure/closet/emcloset/wall{
 	pixel_y = -26
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "BK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "BM" = (
 /obj/machinery/door/airlock/silver{
 	name = "Bathroom"
@@ -1394,24 +1597,24 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "BN" = (
 /obj/machinery/firealarm/directional/north,
 /obj/structure/tank_dispenser,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "BW" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 6
 	},
 /obj/machinery/plumbing/synthesizer,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Cl" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/netpod,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Cm" = (
 /turf/open/space/basic,
 /area/space)
@@ -1420,13 +1623,22 @@
 	dir = 1
 	},
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
+"Ct" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Cv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Cx" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -1436,31 +1648,35 @@
 	},
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Cz" = (
 /obj/machinery/light/floor,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "CI" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"CL" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "CO" = (
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "CP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "CU" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Dc" = (
 /obj/machinery/door/airlock/command/glass{
 	name = "Main quarters"
@@ -1473,26 +1689,48 @@
 	id = "bridgelockdown"
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"De" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Ds" = (
 /obj/structure/cable,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"Dx" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/vault)
+"Dz" = (
+/obj/machinery/porta_turret/centcom_shuttle,
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "DF" = (
 /obj/machinery/atmospherics/miner/oxygen{
 	name = "Oxygen dimentional window";
 	desc = "A joint development from XEDRA, an unamed agent and an unamed entity, this is a window stablized in relation to the floor underneath itself that conects to a dimention composed of only O2."
 	},
 /turf/open/floor/engine/o2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "DS" = (
 /obj/machinery/rnd/production/protolathe,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "DW" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"Ed" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"Ee" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"Ef" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Es" = (
 /obj/structure/rack/gunrack,
 /obj/item/gun/ballistic/automatic/lanca,
@@ -1500,32 +1738,32 @@
 /obj/item/gun/ballistic/automatic/lanca,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "EA" = (
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "EC" = (
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "EI" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "ER" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/effect/turf_decal/vg_decals/atmos/nitrogen,
 /turf/open/floor/engine/n2,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "EW" = (
 /obj/machinery/digital_clock/directional/west,
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Fc" = (
 /obj/machinery/fishing_portal_generator/full,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Fg" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
@@ -1537,12 +1775,25 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Fi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
+"Fj" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"Fq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Fv" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1551,24 +1802,24 @@
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Fy" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "FA" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "FL" = (
 /obj/structure/decorative/shelf/crates1,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "FX" = (
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Ga" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
@@ -1580,18 +1831,24 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Gh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/griddle,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
+"Gl" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"Gt" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Gv" = (
 /obj/structure/reagent_dispensers/foamtank,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "GC" = (
 /obj/machinery/mineral/stacking_unit_console{
 	pixel_x = -32;
@@ -1599,7 +1856,7 @@
 	},
 /obj/machinery/ntnet_relay,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "GE" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -1607,13 +1864,13 @@
 	pixel_y = 13
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "GW" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "GX" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1621,12 +1878,12 @@
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Hi" = (
 /obj/machinery/light/floor,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Hm" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1636,14 +1893,14 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Ho" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Hs" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1656,18 +1913,18 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Hu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Hw" = (
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "HZ" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Ip" = (
 /obj/structure/table/bronze,
 /obj/item/kirbyplants{
@@ -1675,48 +1932,57 @@
 	pixel_y = 12
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"Is" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/machinery/door/window/survival_pod/left/directional/north,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Iu" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
+"IC" = (
+/obj/machinery/porta_turret/centcom_shuttle,
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "IH" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "IK" = (
 /obj/structure/bed/double{
 	dir = 1
 	},
 /obj/item/bedsheet/black/double,
 /turf/open/floor/carpet,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "IL" = (
 /obj/machinery/mineral/stacking_machine{
 	input_dir = 2
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "IN" = (
 /obj/machinery/smartfridge/food,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "IU" = (
 /obj/structure/mirror/directional/north,
 /obj/structure/sink/directional/south,
 /obj/machinery/duct/supply,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Jc" = (
 /obj/structure/fans/tiny/forcefield,
 /obj/machinery/door/poddoor{
 	id = "freighterbay"
 	},
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Jj" = (
 /obj/machinery/vending/medical/syndicate{
 	onstation = 0;
@@ -1725,36 +1991,43 @@
 	all_products_free = 1
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"Jk" = (
+/obj/machinery/porta_turret/centcom_shuttle,
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"Jz" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "JG" = (
 /obj/structure/cable,
 /obj/structure/cable,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "JR" = (
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "JS" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Kb" = (
 /obj/machinery/vending/clothing,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Kc" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "garbage"
+	id = "mining"
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Km" = (
 /obj/machinery/chem_dispenser/fullupgrade,
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Kp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1763,33 +2036,33 @@
 	dir = 9
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Ks" = (
 /obj/machinery/porta_turret/centcom_shuttle,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Kv" = (
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "KA" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
 	},
-/obj/machinery/plumbing/reaction_chamber,
 /obj/structure/extinguisher_cabinet/directional/east,
+/obj/machinery/plumbing/reaction_chamber/chem,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "KB" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/computer/mech_bay_power_console,
 /obj/machinery/camera/xray/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "KH" = (
 /obj/machinery/computer/camera_advanced,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Ld" = (
 /obj/structure/cable,
 /obj/structure/closet/crate,
@@ -1797,28 +2070,30 @@
 /obj/item/pipe_dispenser,
 /obj/item/storage/toolbox/electrical,
 /obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/chief_engineer/expeditionary_corps,
+/obj/item/fireaxe,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Ls" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "LQ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "LT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "LZ" = (
 /obj/machinery/light/floor,
 /obj/machinery/recycler{
@@ -1826,38 +2101,43 @@
 	},
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "garbage"
+	id = "mining"
 	},
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Md" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Mf" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
 	name = "SapMaster XP"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Mt" = (
 /obj/machinery/netpod,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
+"Mz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/rnd/server,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "ME" = (
 /obj/machinery/oven/range,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "MH" = (
 /obj/machinery/ammo_workbench/unlocked,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "MM" = (
 /obj/machinery/byteforge,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "MO" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
@@ -1869,31 +2149,36 @@
 	dir = 5
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "MY" = (
 /obj/structure/cable,
 /obj/structure/closet/crate,
 /obj/item/stack/rods/shuttle/fifty,
 /obj/item/stack/rods/shuttle/twentyfive,
+/obj/item/storage/belt/utility/full/powertools/ircd,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "NF" = (
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "freighterkitchen"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "NW" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "NX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Oh" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -1901,7 +2186,7 @@
 	},
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Op" = (
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder{
@@ -1913,7 +2198,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Oq" = (
 /obj/machinery/door/airlock/silver{
 	name = "Dorm 2"
@@ -1922,13 +2207,20 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Or" = (
 /obj/structure/chair/sofa/left/maroon{
 	dir = 1
 	},
 /turf/open/floor/carpet/orange,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"OB" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "OE" = (
 /obj/machinery/door/airlock/silver{
 	name = "Dorm 1"
@@ -1937,42 +2229,42 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "OK" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Pg" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Ph" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Pl" = (
 /obj/machinery/mech_bay_recharge_port,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Ps" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Pu" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Pv" = (
 /obj/machinery/computer/operating{
 	dir = 1
 	},
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "PC" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -1980,30 +2272,37 @@
 /obj/machinery/power/terminal,
 /obj/machinery/teleport/station,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
+"Qq" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"Qr" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "QA" = (
 /obj/structure/closet/emcloset/wall{
 	pixel_y = -26
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "QC" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "QG" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/chem_master/condimaster,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "QK" = (
 /obj/machinery/porta_turret/centcom_shuttle,
 /turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "QR" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -2011,11 +2310,15 @@
 /obj/machinery/chem_dispenser/mutagensaltpeter,
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"QV" = (
+/obj/machinery/vending/liberationstation,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "Rl" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Ru" = (
 /obj/structure/table,
 /obj/machinery/processor,
@@ -2024,7 +2327,10 @@
 	pixel_y = 0
 	},
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
+"Rz" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "RD" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -2034,57 +2340,69 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "RF" = (
 /obj/machinery/dna_scannernew,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/white/smooth_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "RL" = (
 /obj/effect/turf_decal/trimline/green/filled/line,
 /obj/machinery/plumbing/synthesizer,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "RP" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"Si" = (
+/obj/machinery/nova/fan/self_powered,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"Sx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "SB" = (
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "SI" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "SL" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "SX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/east,
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Te" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/deck,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Tf" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/machinery/jukebox,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Tk" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"Tn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Tq" = (
 /obj/machinery/suit_storage_unit{
 	mask_type = /obj/item/clothing/mask/gas/explorer;
@@ -2092,7 +2410,7 @@
 	suit_type = /obj/item/mod/control/pre_equipped/traitor_elite
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "Tt" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 5
@@ -2100,7 +2418,7 @@
 /obj/machinery/seed_extractor,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Ty" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
@@ -2113,27 +2431,38 @@
 	dir = 1
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "TD" = (
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"TG" = (
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"TH" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "TI" = (
 /obj/machinery/firealarm/directional/east,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/vending/cola{
+	onstation = 0
+	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "TL" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "TO" = (
 /obj/machinery/shower/directional/south,
 /obj/structure/drain,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "TP" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/drinkingglasses{
@@ -2145,22 +2474,26 @@
 	pixel_y = 7
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "TW" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/duct/supply,
 /turf/open/floor/iron/white,
-/area/space)
-"Uu" = (
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"Ur" = (
+/obj/structure/cable,
 /obj/machinery/power/tracker,
-/turf/open/floor/plating/reinforced,
-/area/space)
+/turf/open/floor/iron/solarpanel/airless,
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
+"Uu" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "UK" = (
 /obj/machinery/computer/teleporter{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "UN" = (
 /obj/machinery/light/directional/north,
 /obj/structure/mecha_wreckage/durand{
@@ -2168,36 +2501,42 @@
 	desc = "A half asembled/disasembled mech power armor hydrid of magical nature developed by Rafael."
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "UQ" = (
 /obj/machinery/light/directional/south,
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Vn" = (
 /obj/machinery/telecomms/message_server/preset,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Vr" = (
 /obj/vehicle/ridden/speedbike{
 	name = "Majicycle";
 	desc = "A floating motocycle made almost exclusevly with magical materials, a one of a kind in this realm"
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Vv" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "VB" = (
 /obj/structure/closet/emcloset/wall{
 	pixel_y = -26
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
+"VF" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "VI" = (
 /obj/machinery/power/micro_reactor{
 	desc = "Another development from XEDRA, this one originating from the thaumalurgycal R&D department. Uses condensed mana crystals to generate aproximatly 1GW of power.";
@@ -2206,10 +2545,10 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/submarine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "VJ" = (
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "VK" = (
 /obj/structure/sink/kitchen/directional/east,
 /obj/machinery/power/terminal{
@@ -2218,11 +2557,17 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "VL" = (
 /obj/machinery/light/floor,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
+"VM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "VT" = (
 /obj/structure/closet,
 /obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/milspec,
@@ -2231,8 +2576,16 @@
 /obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/buckshot/milspec,
 /obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/buckshot/milspec,
 /obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "VW" = (
 /obj/structure/closet/crate/secure/weapon{
 	name = "Surplus Firearms"
@@ -2245,20 +2598,20 @@
 /obj/item/storage/toolbox/guncase/nova/pistol/opfor/m1911,
 /obj/item/storage/toolbox/guncase/nova/pistol/opfor/sindano,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Wq" = (
 /obj/structure/cable,
 /obj/machinery/duct,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Wr" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/reinforced,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "Ws" = (
 /obj/machinery/ore_silo,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Ww" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -2270,49 +2623,67 @@
 /obj/item/storage/toolbox/emergency/turret/mag_fed/hoplite/pre_filled,
 /obj/item/storage/toolbox/emergency/turret/mag_fed/hoplite/pre_filled,
 /obj/item/storage/toolbox/emergency/turret/mag_fed/hoplite/pre_filled,
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/vest/marine,
+/obj/item/clothing/suit/armor/vest/marine,
+/obj/item/clothing/head/helmet/marine,
+/obj/item/clothing/head/helmet/marine,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 "WM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "WN" = (
 /obj/structure/toilet,
 /obj/machinery/duct/supply,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "WP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/duct,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"WW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/computer/rdconsole{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "WZ" = (
 /obj/structure/closet/crate/medical,
+/obj/item/clothing/suit/toggle/labcoat/medical,
+/obj/item/clothing/suit/toggle/labcoat/medical,
+/obj/item/clothing/under/rank/medical/scrubs/blue,
+/obj/item/clothing/under/rank/medical/scrubs/blue,
+/obj/item/storage/backpack/duffelbag/syndie/med/medicalbundle,
+/obj/item/storage/briefcase/medicalgunset/standard,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Xa" = (
 /obj/machinery/power/shuttle_engine/heater,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /turf/open/floor/engine,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "Xb" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Xf" = (
 /obj/machinery/biogenerator/fullupgrade,
 /obj/machinery/door/window/survival_pod/left/directional/north,
 /obj/machinery/door/window/survival_pod/left/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Xk" = (
 /obj/item/geneshears,
 /obj/item/gun/energy/floragun,
@@ -2322,21 +2693,32 @@
 	pixel_x = -5;
 	pixel_y = 3
 	},
+/obj/item/wrench/caravan,
+/obj/item/construction/plumbing,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"Xq" = (
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Xv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "XF" = (
 /obj/vehicle/sealed/mecha/odysseus,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
+"XH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "XK" = (
 /obj/machinery/vending/dorms,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "XP" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 10
@@ -2345,20 +2727,35 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "XT" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"XY" = (
+/obj/machinery/computer/robotics{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"Yg" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Yi" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Yl" = (
 /obj/structure/closet/crate/internals,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Ym" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -2366,11 +2763,8 @@
 	pixel_y = 7
 	},
 /turf/open/floor/iron/kitchen,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "Yo" = (
-/obj/effect/spawner/random/structure/closet_private,
-/obj/item/gun_maintenance_supplies,
-/obj/item/gun_maintenance_supplies,
 /obj/item/clothing/under/tachawaiian,
 /obj/item/clothing/under/tachawaiian,
 /obj/item/clothing/under/tachawaiian/blue,
@@ -2379,33 +2773,34 @@
 /obj/item/clothing/under/tachawaiian/green,
 /obj/item/clothing/suit/costume/hawaiian,
 /obj/item/clothing/suit/costume/hawaiian,
-/obj/item/gun/ballistic/shotgun/riot{
-	name = "Ancient M500";
-	desc = "A positively ancient shotgun, the markings on it reveal that it was fabricated in the 2020s. Despite its age it is still a well preserved and functioning shotgun. How in the hell did Rafael get a hold of this relic?";
-	sawn_desc = "Why? It was a perfectly good shotgun and now its shorter... Raf will fix it later."
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/suit/armor/vest/cin_surplus_vest,
+/obj/item/clothing/head/helmet/cin_surplus_helmet/marine{
+	name = "Customized GZ-03 combat helmet";
+	desc = "An outdated service helmet previously used by CIN military forces. The design dates back to the years leading up to CIN - SolFed border war, and was in service until the advent of VOSKHOD powered armor becoming standard issue. This one was customized by Rafael, giving it better protection and a lighter build.";
+	flash_protect = 1;
+	heat_protection = 6
 	},
-/obj/item/ammo_box/advanced/s12gauge/milspec,
-/obj/item/ammo_box/advanced/s12gauge/milspec,
-/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
-/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/clothing/head/helmet/marine,
+/obj/item/clothing/suit/armor/vest/marine,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Yw" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "YJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "YK" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "YL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2414,11 +2809,22 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/rotator,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "YR" = (
 /obj/machinery/defibrillator_mount/charging,
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"YZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
+"Zc" = (
+/obj/machinery/computer/quantum_console,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Ze" = (
 /obj/machinery/door/airlock/mining/glass{
 	name = "Loading Bay"
@@ -2427,7 +2833,7 @@
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Zo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
@@ -2437,26 +2843,18 @@
 	},
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/white,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Zr" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/wiz/double,
 /turf/open/floor/wood,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Zu" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Zx" = (
-/obj/docking_port/stationary{
-	dheight = 3;
-	dir = 2;
-	dwidth = 8;
-	height = 11;
-	name = "Port Bay 2";
-	shuttle_id = "ferry_home";
-	width = 20
-	},
+/obj/docking_port/stationary,
 /turf/open/space/basic,
 /area/space)
 "ZG" = (
@@ -2465,18 +2863,25 @@
 /obj/effect/mapping_helpers/apc/unlocked,
 /obj/machinery/power/terminal,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
+"ZL" = (
+/obj/machinery/mecha_part_fabricator,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
+"ZN" = (
+/turf/closed/wall/r_wall/plastitanium/syndicate,
+/area/ruin/space/has_grav/cargodise_freighter/trauma)
 "ZQ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "ZY" = (
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/blackbox_recorder,
 /turf/open/floor/mineral/plastitanium,
-/area/space)
+/area/ruin/space/has_grav/cargodise_freighter/vault)
 
 (1,1,1) = {"
 Cm
@@ -3982,16 +4387,16 @@ Cm
 Cm
 Cm
 Cm
-zr
+rg
 Ps
-zr
+rg
 fR
 fR
 fR
 fR
 fR
 dq
-fR
+Ur
 Cm
 Cm
 Cm
@@ -4058,8 +4463,8 @@ Cm
 Cm
 Cm
 Cm
-QK
-zr
+Dz
+rg
 jA
 Ds
 xa
@@ -4122,30 +4527,30 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Jz
 zr
 zr
-Ks
-zr
-zr
-zr
+sd
 zr
 zr
 zr
-zr
-zr
-zr
-zr
+Uu
+Uu
+Uu
+Uu
+Uu
+Uu
+Uu
 da
 BK
 VJ
-zr
-zr
-zr
-zr
-zr
-zr
-zr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
 QK
 Cm
 Cm
@@ -4198,33 +4603,33 @@ Cm
 Cm
 Cm
 Cm
-QK
+xv
 zr
 IK
 EW
 Cx
 zr
-VJ
+Xq
 XK
-zr
+Uu
 Ym
 JR
 VK
 JR
 eF
-zr
+Uu
 Zu
 BK
 RP
-zr
+Gt
 vI
 Fg
 Fg
 rz
 Fg
 XP
-zr
-eJ
+Gt
+Qq
 Cm
 Cm
 Cm
@@ -4274,8 +4679,8 @@ Cm
 Cm
 Cm
 Cm
-eJ
-zr
+Dx
+Bt
 zr
 AS
 lK
@@ -4283,17 +4688,17 @@ Yi
 OE
 Yi
 Kb
-zr
+Uu
 uz
 JR
 ME
 JR
 Ru
-zr
+Uu
 VJ
 BK
 VJ
-XT
+Ef
 kg
 qS
 qS
@@ -4301,7 +4706,7 @@ qS
 qS
 qS
 qV
-zr
+Gt
 QK
 Cm
 Cm
@@ -4350,8 +4755,8 @@ Cm
 Cm
 Cm
 Cm
-eJ
-zr
+Dx
+Bt
 Ak
 zr
 aa
@@ -4360,17 +4765,17 @@ CP
 zr
 Yi
 Fc
-zr
+Uu
 QG
 Md
 Gh
 ol
 UQ
-zr
+Uu
 VJ
 BK
 VJ
-XT
+Ef
 Ga
 dY
 dY
@@ -4379,7 +4784,7 @@ qS
 pA
 qS
 pQ
-zr
+Gt
 Cm
 Cm
 Cm
@@ -4426,8 +4831,8 @@ Cm
 Cm
 Cm
 Cm
-QK
-zr
+sa
+Bt
 MH
 SB
 zr
@@ -4436,8 +4841,8 @@ zr
 zr
 zr
 Yi
-VJ
-zr
+km
+Uu
 nB
 JR
 pz
@@ -4449,14 +4854,14 @@ sh
 dj
 iR
 MO
-ZQ
-ZQ
+oV
+oV
 WP
 qS
 Mf
 qS
 RL
-vA
+Fj
 xn
 Cm
 Cm
@@ -4503,7 +4908,7 @@ Cm
 Cm
 Cm
 Cm
-zr
+Bt
 VT
 SB
 QA
@@ -4513,18 +4918,18 @@ EW
 Cx
 zr
 Yi
-VJ
-zr
+yZ
+Uu
 fN
 JR
-oG
+VM
 JR
 JR
 IN
 VJ
 wJ
 VJ
-XT
+Ef
 vc
 Xk
 zK
@@ -4533,7 +4938,7 @@ Bj
 GE
 qS
 RL
-zr
+Gt
 Cm
 Cm
 Cm
@@ -4579,38 +4984,38 @@ Cm
 Cm
 Cm
 Cm
-eJ
-zr
+Dx
+Bt
 qw
 SB
-SB
+QV
 zr
 AS
 lK
 Yi
 Oq
 Yi
-RP
-zr
-zr
+rV
+Uu
+Uu
 NF
 hm
 NF
 kF
-zr
+Uu
 LT
 wJ
 yL
 Xf
 xS
-VJ
-VJ
+Gl
+Gl
 Wq
-VJ
-VJ
+Gl
+Gl
 qS
 RL
-vA
+Fj
 xn
 Cm
 Cm
@@ -4653,11 +5058,11 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Ed
 Ks
-zr
-zr
-zr
+ea
+ea
+ea
 jX
 pO
 ZY
@@ -4667,7 +5072,7 @@ px
 CP
 zr
 Yi
-VJ
+Xq
 tz
 gJ
 EA
@@ -4678,7 +5083,7 @@ zr
 VJ
 wJ
 VJ
-zr
+Gt
 Tt
 yD
 QR
@@ -4687,7 +5092,7 @@ cJ
 KA
 hG
 BW
-zr
+Gt
 QK
 Cm
 Cm
@@ -4730,13 +5135,13 @@ Cm
 Cm
 Cm
 qc
-zr
+ea
 GW
 Ls
 GW
-zr
+ea
 Ty
-QC
+aW
 Ww
 zr
 zr
@@ -4744,7 +5149,7 @@ zr
 zr
 zr
 pd
-VJ
+Xq
 EA
 EA
 tZ
@@ -4755,18 +5160,18 @@ zr
 Zu
 wJ
 RP
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-Uu
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+cz
 Cm
 Cm
 Cm
@@ -4808,12 +5213,12 @@ Cm
 qc
 qc
 oU
-VJ
-VJ
+TH
+TH
 Bw
-zr
+ea
 uA
-QC
+aW
 Tq
 zr
 Oh
@@ -4832,14 +5237,14 @@ zr
 VJ
 wJ
 VJ
-zr
+dL
 DF
 qu
 AK
 mB
 ft
-Hu
-Hu
+WW
+Mz
 ul
 do
 Yw
@@ -4888,9 +5293,9 @@ oU
 HZ
 kB
 sG
-zr
+ea
 Es
-QC
+aW
 Tq
 zr
 kO
@@ -4898,7 +5303,7 @@ FX
 Yi
 BM
 Yi
-VJ
+Xq
 EA
 QC
 nf
@@ -4909,15 +5314,15 @@ zr
 VJ
 wJ
 VJ
-zr
+dL
 lk
 zM
 ER
 sO
 Fi
-oF
-go
 he
+he
+oF
 Gv
 Xa
 cz
@@ -4961,13 +5366,13 @@ Cm
 qc
 KH
 SL
-VJ
-WM
-VJ
-VJ
+TH
+VF
+TH
+TH
 pn
 SB
-QC
+aW
 ec
 zr
 TO
@@ -4986,7 +5391,7 @@ zr
 mn
 iN
 jh
-zr
+dL
 wo
 Xv
 Hi
@@ -4995,7 +5400,7 @@ Hu
 he
 he
 he
-he
+Qr
 pF
 cz
 cz
@@ -5037,15 +5442,15 @@ Cm
 qc
 qc
 EI
-hB
-VJ
+Ah
+TH
 JS
-Tk
+lf
 ZG
-zr
-zr
+ea
+Bt
 sw
-zr
+Bt
 zr
 zr
 zr
@@ -5055,15 +5460,15 @@ zr
 zr
 zr
 gm
-XT
+yp
 zr
 zr
 zr
-eJ
+Jz
 VJ
 wJ
 oK
-zr
+dL
 RD
 Iu
 lo
@@ -5114,14 +5519,14 @@ Cm
 qc
 IH
 pJ
-VJ
+TH
 kY
 JS
 Bh
-VJ
+TH
 XT
 VJ
-QC
+XH
 VJ
 bb
 VJ
@@ -5140,7 +5545,7 @@ jh
 WM
 wJ
 TD
-zr
+dL
 BN
 pI
 he
@@ -5191,23 +5596,23 @@ Cm
 qc
 Bg
 Vv
-VJ
+TH
 yN
 LQ
 ZQ
 ZQ
 Hm
-ZQ
-ZQ
-ZQ
-LQ
-ZQ
-ZQ
-ZQ
+Fq
+Fq
+Fq
+OB
+Fq
+Fq
+Fq
 rl
-ZQ
-ZQ
-ZQ
+Fq
+Fq
+Fq
 fx
 dj
 dj
@@ -5218,9 +5623,9 @@ dj
 YL
 lA
 Hs
-lA
-lA
-lA
+Ct
+Ct
+Ct
 gD
 Av
 nR
@@ -5268,38 +5673,38 @@ Cm
 qc
 IH
 eH
-VJ
+TH
 TP
-Hu
-VJ
-VJ
+De
+TH
+TH
 XT
 VJ
 VJ
 VJ
 zJ
 oX
-QC
+XH
 YK
 jh
 VJ
 VJ
 VJ
-Yi
+Tn
 VJ
-gU
+Yg
 VJ
 iC
 jh
-us
+dM
 wJ
 VJ
-zr
+dL
 TL
 he
-Tk
+kI
 iw
-SI
+zG
 tS
 zY
 eP
@@ -5345,38 +5750,38 @@ Cm
 qc
 qc
 EI
-hB
-VJ
-Hu
-VJ
-TD
-zr
+Ah
+TH
+De
+TH
+TG
+ea
 zr
 zr
 zr
 zr
 zr
 Dc
-zr
-zr
-zr
-zr
-XT
+Rz
+Rz
+Rz
+Rz
+CL
 xT
 nv
-zr
-zr
-zr
-eJ
+Rz
+Rz
+Rz
+qa
 VJ
 wJ
 VJ
-zr
+dL
 cK
 he
 Ld
 xi
-zG
+oM
 xI
 Vn
 sq
@@ -5420,13 +5825,13 @@ Cm
 Cm
 Cm
 Cm
-qc
+qP
 Bg
 GW
-VJ
+TH
 us
-VJ
-VJ
+TH
+TH
 vp
 Bn
 th
@@ -5434,21 +5839,21 @@ Yo
 rr
 Rl
 QC
-zr
+Rz
 xE
-VJ
-Pu
+SI
+yG
 Vr
-Yi
-VJ
+Sx
+SI
 CO
-VJ
+SI
 Mt
-zr
+Rz
 jh
 iN
 jh
-zr
+dL
 DS
 VL
 MY
@@ -5499,33 +5904,33 @@ Cm
 Cm
 qc
 qc
-VJ
-VJ
-VJ
-VJ
+XY
+Si
+Is
+nu
 nO
-zr
+ea
 Bn
 pl
 pl
 pl
 Bn
 dg
-zr
+Rz
 KB
-VJ
-VJ
-VJ
-Yi
-VJ
-VJ
-VJ
+SI
+SI
+SI
+Sx
+SI
+SI
+SI
 Cl
-zr
+Rz
 VJ
 wJ
 VJ
-zr
+dL
 uM
 he
 yc
@@ -5577,32 +5982,32 @@ Cm
 Cm
 qc
 qc
-VJ
-VJ
-VJ
+Bo
+go
+TH
 Bw
-zr
+ea
 fe
 pl
 pl
 Or
 OK
 hy
-zr
+Rz
 Pl
-VJ
-VJ
-VJ
-Yi
+SI
+SI
+SI
+Sx
 fQ
-io
-VJ
+Zc
+SI
 MM
-zr
+Rz
 VJ
 wJ
 VJ
-zr
+dL
 Ws
 he
 he
@@ -5654,42 +6059,42 @@ Cm
 Cm
 Cm
 qc
-zr
-VJ
+ea
+TH
 gU
-VJ
-zr
+TH
+ea
 xO
 pl
 pl
 ed
 Bn
 nY
-zr
+Rz
 du
-VJ
-VJ
+SI
+SI
 hB
-Yi
+Sx
 sM
 FL
-VJ
+SI
 ke
-zr
+Rz
 Zu
 wJ
 RP
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-zr
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+hh
 YR
-zr
-zr
+hh
+hh
 cz
 Cm
 Cm
@@ -5731,32 +6136,32 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Ed
 Ks
-zr
-zr
-zr
+ea
+ea
+ea
 ss
 gZ
 pl
 pl
 Bn
 rq
-zr
+Rz
 cr
-VJ
-VJ
-VJ
-Yi
+SI
+SI
+SI
+Sx
 WZ
-VJ
-VJ
+io
+SI
 FA
-zr
+Rz
 gn
 wJ
 VJ
-zr
+hh
 Km
 Hw
 Op
@@ -5765,8 +6170,8 @@ Hw
 aQ
 Hw
 Pv
-zr
-QK
+hh
+Jk
 Cm
 Cm
 Cm
@@ -5811,29 +6216,29 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Jz
 zr
 Ip
 lp
 Zr
 cY
-Bn
+su
 VB
-zr
+Rz
 Pl
-VJ
-VJ
+ZL
+SI
 tH
-Yi
+Sx
 Fy
-VJ
-Tk
+SI
+lj
 PC
-zr
+Rz
 wr
 wJ
 yL
-zr
+hh
 pw
 Hw
 ms
@@ -5889,28 +6294,28 @@ Cm
 Cm
 Cm
 Cm
-QK
+xv
 zr
 zr
 zr
 zr
 zr
 vh
-zr
+Rz
 XF
-VJ
-VJ
+SI
+SI
 lu
-VJ
-VJ
-VJ
-Tk
+SI
+SI
+SI
+lj
 UK
-XT
+CL
 VJ
 wJ
 VJ
-XT
+Ee
 er
 Hw
 AJ
@@ -5967,28 +6372,28 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Jz
 zr
 qU
 yl
 WN
 FX
-zr
+Rz
 cr
-VJ
-VJ
-VJ
-VJ
+SI
+SI
+SI
+SI
 hB
 Yl
-Tk
+lj
 Ho
 Ze
 bW
 dK
 dj
 uW
-dj
+YZ
 Ph
 Kp
 NX
@@ -6045,26 +6450,26 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Jz
 zr
 zr
 TW
 FX
-zr
+Rz
 Pl
-VJ
-VJ
-VJ
-VJ
-VJ
-VJ
-VJ
+SI
+SI
+SI
+SI
+SI
+SI
+SI
 mv
-XT
+CL
 VJ
 BK
 VJ
-XT
+Ee
 oA
 Hw
 Hw
@@ -6073,7 +6478,7 @@ Hw
 Hw
 Hw
 Pv
-zr
+hh
 Cm
 Cm
 Cm
@@ -6123,25 +6528,25 @@ Cm
 Cm
 Cm
 Cm
-QK
+xv
 zr
 IU
 ig
-zr
+Rz
 UN
-VJ
-VJ
-VJ
-VJ
-VJ
-VJ
-VJ
+SI
+SI
+SI
+SI
+SI
+SI
+SI
 wD
-zr
+Rz
 VJ
 BK
 VJ
-zr
+hh
 RF
 Hw
 Hw
@@ -6150,7 +6555,7 @@ Hw
 Hw
 lB
 YR
-QK
+Jk
 Cm
 Cm
 Cm
@@ -6201,32 +6606,32 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Jz
 zr
 AX
-zr
+Rz
 VW
 Kv
-VJ
-VJ
-VJ
-VJ
-VJ
+SI
+SI
+SI
+SI
+SI
 aS
 zy
-zr
+Rz
 Zu
 BK
 RP
-zr
+hh
 Jj
 Hw
 Hw
 CU
 hR
 wC
-zr
-eJ
+hh
+ZN
 Cm
 Cm
 Cm
@@ -6279,30 +6684,30 @@ Cm
 Cm
 Cm
 Cm
-eJ
+Jz
 zr
-Ks
-zr
-zr
+IC
+Rz
+Rz
 Jc
 Jc
 Jc
 Jc
 Jc
-zr
-zr
-zr
+Rz
+Rz
+Rz
 CI
 BK
 VJ
-zr
-zr
-zr
-zr
-zr
-zr
-zr
-QK
+hh
+hh
+hh
+hh
+hh
+hh
+hh
+Jk
 Cm
 Cm
 Cm
@@ -6368,8 +6773,8 @@ Cm
 Cm
 Cm
 Cm
-QK
-zr
+Dz
+rg
 jA
 JG
 xa
@@ -6446,16 +6851,16 @@ Cm
 Cm
 Cm
 Cm
-zr
+rg
 ip
-zr
+rg
 fR
 fR
 fR
 fR
 fR
 fR
-fR
+Ur
 Cm
 Cm
 Cm
