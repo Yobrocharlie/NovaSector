@@ -4,6 +4,9 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
+"ag" = (
+/turf/open/floor/engine,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "aj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -88,6 +91,13 @@
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
+"ct" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 35;
+	pixel_y = 2
+	},
+/turf/open/space/basic,
+/area/space)
 "cz" = (
 /turf/open/floor/plating/reinforced,
 /area/ruin/space/has_grav/cargodise_freighter/exterior)
@@ -113,13 +123,6 @@
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "cY" = (
 /obj/structure/dresser,
-/obj/item/machete{
-	pixel_x = 6;
-	pixel_y = -3;
-	name = "Combat machete";
-	desc = "A forged machete with a slight serrated back purpose build for combat.";
-	block_chance = 75
-	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "da" = (
@@ -154,6 +157,10 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/ruin/space/has_grav/cargodise_freighter/exterior)
+"dr" = (
+/obj/machinery/door/window/survival_pod/left/directional/west,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "du" = (
 /obj/vehicle/sealed/mecha/durand,
 /turf/open/floor/iron/dark/textured_large,
@@ -233,6 +240,10 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/iron/submarine_vents,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"eo" = (
+/obj/machinery/quantum_server,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "er" = (
 /obj/machinery/chem_master/fullupgrade,
 /turf/open/floor/iron/white/smooth_large,
@@ -255,23 +266,25 @@
 /turf/open/floor/iron/submarine_vents,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "fe" = (
-/obj/item/kirbyplants/organic/plant17{
-	pixel_x = -7;
-	pixel_y = 11
-	},
 /obj/structure/table/wood,
 /obj/item/uplink/old_radio{
-	pixel_x = 4;
-	pixel_y = 7;
+	pixel_x = 6;
+	pixel_y = 11;
 	name = "Jurryrigged bluespace transiver";
 	desc = "Some slaped together bluespace transiver made from what ammounts to scrap held together by duct tape and wires pluged irectly to the television."
+	},
+/obj/item/wallframe/telescreen/entertainment{
+	pixel_x = 1;
+	pixel_y = 1;
+	desc = "a wall mounted flat-screen smart TV, quite an old model that you are surprised even still works.";
+	name = "Flat-screen smart TV"
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "ft" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/west,
-/obj/machinery/portable_atmospherics/scrubber,
+/obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "fx" = (
@@ -345,9 +358,11 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "go" = (
-/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
 /turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "gx" = (
 /obj/machinery/power/shuttle_engine/huge,
 /obj/effect/turf_decal/stripes/line,
@@ -374,9 +389,12 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "gU" = (
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = -31;
+	pixel_y = 1
+	},
+/turf/open/space/basic,
+/area/space)
 "gZ" = (
 /obj/structure/chair/office/tactical,
 /turf/open/floor/carpet/orange,
@@ -538,7 +556,9 @@
 /area/ruin/space/has_grav/cargodise_freighter/vault)
 "ke" = (
 /obj/machinery/firealarm/directional/south,
-/obj/machinery/quantum_server,
+/obj/machinery/computer/quantum_console{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
 "kg" = (
@@ -612,21 +632,6 @@
 	pixel_x = 10;
 	pixel_y = 0
 	},
-/obj/item/gun/ballistic/revolver/mateba{
-	pixel_x = 1;
-	pixel_y = 22;
-	name = "Unica 6";
-	desc = "A very rare and very old double action revolver chambered in 357 magnum.";
-	projectile_damage_multiplier = 5
-	},
-/obj/item/ammo_box/speedloader/c357{
-	pixel_x = -7;
-	pixel_y = 38
-	},
-/obj/item/ammo_box/speedloader/c357{
-	pixel_x = 2;
-	pixel_y = 34
-	},
 /obj/item/radio/headset/headset_frontier_colonist{
 	pixel_x = -5;
 	pixel_y = 9
@@ -698,6 +703,10 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"ne" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "nf" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -705,9 +714,11 @@
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "nu" = (
-/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/machinery/mineral/stacking_machine{
+	input_dir = 2
+	},
 /turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "nv" = (
 /obj/machinery/mineral/ore_redemption{
 	dir = 4;
@@ -724,14 +735,12 @@
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "nO" = (
-/obj/machinery/light/directional/south,
 /obj/machinery/firealarm/directional/south,
 /obj/machinery/button/door/directional/north{
 	id = "bridgelockdown";
 	name = "Bridge Blastdoors";
 	pixel_y = -24
 	},
-/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/bridge)
 "nR" = (
@@ -916,20 +925,20 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/cargodise_freighter/vault)
 "qP" = (
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
-/obj/structure/grille,
-/obj/machinery/mineral/stacking_unit_console{
-	pixel_x = -32;
-	pixel_y = -32
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 1;
+	pixel_y = 34
 	},
-/turf/open/floor/plating/reinforced,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/turf/open/space/basic,
+/area/space)
 "qS" = (
 /obj/machinery/duct,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "qU" = (
-/obj/machinery/plumbing/synthesizer/water_synth,
+/obj/machinery/plumbing/synthesizer/water_synth{
+	name = "Hot water tank"
+	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "qV" = (
@@ -949,6 +958,13 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"rm" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/space/basic,
+/area/space)
 "rn" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -960,7 +976,29 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/trauma)
 "rq" = (
-/obj/machinery/firealarm/directional/south,
+/obj/structure/closet/generic/wall/empty{
+	pixel_x = 1;
+	pixel_y = -23;
+	name = "AMMO"
+	},
+/obj/item/gun_maintenance_supplies,
+/obj/item/gun_maintenance_supplies,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/ammo_box/advanced/s12gauge/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
+/obj/item/ammo_box/speedloader/c357{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/speedloader/c357{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/speedloader/c357{
+	pixel_x = -3;
+	pixel_y = 4
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "rr" = (
@@ -983,16 +1021,24 @@
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "rV" = (
 /obj/machinery/light/directional/south,
+/obj/machinery/fishing_portal_generator/full,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "sa" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/ruin/space/has_grav/cargodise_freighter/vault)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 0;
+	pixel_y = 35
+	},
+/turf/open/space/basic,
+/area/space)
 "sd" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/ruin/space/has_grav/cargodise_freighter/quarters)
+/obj/structure/lattice/catwalk,
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = -30;
+	pixel_y = 1
+	},
+/turf/open/space/basic,
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "sh" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1028,25 +1074,32 @@
 /obj/structure/rack/gunrack,
 /obj/item/gun/energy/laser/carbine{
 	name = "Customised laser carbine";
-	projectile_damage_multiplier = 1.75
+	projectile_damage_multiplier = 1.75;
+	pixel_x = 1;
+	pixel_y = 4
 	},
 /obj/item/gun/ballistic/shotgun/riot{
-	name = "Ancient M500";
+	name = "Ancient Mossberg 500";
 	desc = "A positively ancient shotgun, the markings on it reveal that it was fabricated in the 2020s. Despite its age it is still a well preserved and functioning shotgun. How in the hell did Rafael get a hold of this relic?";
 	sawn_desc = "Why? It was a perfectly good shotgun and now its shorter... Raf will fix it later.";
 	projectile_damage_multiplier = 2
 	},
-/obj/structure/closet/generic/wall/empty{
-	pixel_x = 23;
-	pixel_y = 0;
-	name = "AMMO"
+/obj/item/machete{
+	pixel_x = 8;
+	pixel_y = -8;
+	name = "Combat machete";
+	desc = "A forged machete with a slight serrated back purpose build for combat.";
+	block_chance = 75;
+	armour_penetration = 50
 	},
-/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
-/obj/item/ammo_box/advanced/s12gauge/buckshot/milspec,
-/obj/item/ammo_box/advanced/s12gauge/milspec,
-/obj/item/ammo_box/advanced/s12gauge/milspec,
-/obj/item/gun_maintenance_supplies,
-/obj/item/gun_maintenance_supplies,
+/obj/item/gun/ballistic/revolver/mateba{
+	pixel_x = -1;
+	pixel_y = -8;
+	name = "Mateba model 6 unica";
+	desc = "A genuine Mateba model 6 unica, chambered in 357 magnum, its a semi-automatic bottom cylinder firing revolver using a quite interesting recoil system, in wich the entire uper part of the gun slides backwards to minimise the recoil.";
+	projectile_damage_multiplier = 5;
+	armour_penetration = 30
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "sw" = (
@@ -1219,6 +1272,7 @@
 /obj/machinery/door/poddoor{
 	id = "bridgelockdown"
 	},
+/obj/machinery/door/airlock/command,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/bridge)
 "vA" = (
@@ -1274,13 +1328,20 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+"wO" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "xa" = (
 /obj/structure/cable,
-/obj/machinery/porta_turret/centcom_shuttle,
 /turf/closed/wall/r_wall/plastitanium/syndicate,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "xi" = (
 /obj/machinery/power/smes/super/full,
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "xn" = (
@@ -1294,9 +1355,12 @@
 /turf/open/floor/plating/reinforced,
 /area/ruin/space/has_grav/cargodise_freighter/exterior)
 "xv" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/ruin/space/has_grav/cargodise_freighter/quarters)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = -31;
+	pixel_y = 2
+	},
+/turf/open/space/basic,
+/area/space)
 "xE" = (
 /obj/item/gps/computer,
 /turf/open/floor/iron/dark/textured_large,
@@ -1307,7 +1371,6 @@
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "xO" = (
 /obj/machinery/light/directional/north,
-/obj/structure/closet/mini_fridge,
 /obj/item/reagent_containers/cup/glass/bottle/holywater,
 /obj/item/reagent_containers/cup/glass/bottle/juice/pineapplejuice,
 /obj/item/reagent_containers/cup/glass/bottle/juice/orangejuice,
@@ -1321,12 +1384,7 @@
 /obj/item/food/burger/baconburger,
 /obj/item/reagent_containers/cup/bowl/soup/stew,
 /obj/item/reagent_containers/cup/bowl/soup/stew,
-/obj/item/wallframe/telescreen/entertainment{
-	pixel_x = -16;
-	pixel_y = 29;
-	desc = "a wall mounted flat-screen smart TV, quite an old model that you are surprised even still works.";
-	name = "Flat-screen smart TV"
-	},
+/obj/structure/closet/crate/freezer/food,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "xS" = (
@@ -1377,6 +1435,7 @@
 /obj/machinery/door/airlock/vault{
 	name = "Water heater"
 	},
+/obj/machinery/door/airlock/hatch,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "yp" = (
@@ -1570,9 +1629,18 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Bo" = (
-/obj/machinery/mineral/stacking_machine{
-	input_dir = 2
+/obj/machinery/light/directional/east,
+/obj/structure/table/reinforced,
+/obj/item/circuitboard/computer/cargo/express/ghost/tarkon,
+/obj/item/card/id/departmental_budget/tarkon,
+/obj/item/card/id/advanced/tarkon/sec{
+	name = "Rafael's Tarkon security ID";
+	desc = "Rafael's access card from Tarkon."
 	},
+/obj/item/circuitboard/computer/ghostpad/tarkon,
+/obj/item/circuitboard/machine/ghostpad/tarkon,
+/obj/machinery/camera/xray/directional/east,
+/obj/item/encryptionkey/headset_cargo/tarkon,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Bt" = (
@@ -1603,6 +1671,13 @@
 /obj/structure/tank_dispenser,
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"BS" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 34;
+	pixel_y = 1
+	},
+/turf/open/space/basic,
+/area/space)
 "BW" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 6
@@ -1612,6 +1687,7 @@
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Cl" = (
 /obj/machinery/light/directional/south,
+/obj/item/bitrunning_disk/prefs,
 /obj/machinery/netpod,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
@@ -1688,6 +1764,7 @@
 /obj/machinery/door/poddoor{
 	id = "bridgelockdown"
 	},
+/obj/machinery/door/airlock/command,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "De" = (
@@ -1702,9 +1779,12 @@
 /turf/closed/wall/r_wall/plastitanium/syndicate,
 /area/ruin/space/has_grav/cargodise_freighter/vault)
 "Dz" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/ruin/space/has_grav/cargodise_freighter/primaryhall)
+/obj/item/kirbyplants/organic/plant17{
+	pixel_x = 11;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "DF" = (
 /obj/machinery/atmospherics/miner/oxygen{
 	name = "Oxygen dimentional window";
@@ -1716,6 +1796,11 @@
 /obj/machinery/rnd/production/protolathe,
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"DV" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "DW" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood/large,
@@ -1761,9 +1846,12 @@
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Fc" = (
-/obj/machinery/fishing_portal_generator/full,
-/turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/quarters)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 31;
+	pixel_y = 0
+	},
+/turf/open/space/basic,
+/area/space)
 "Fg" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
@@ -1777,10 +1865,9 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Fi" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/portable_atmospherics/pump,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/ruin/space/has_grav/cargodise_freighter/utility)
+/obj/machinery/computer/order_console/bitrunning,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Fj" = (
 /obj/machinery/power/shuttle_engine/heater,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
@@ -1804,11 +1891,12 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Fy" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 35;
+	pixel_y = 0
 	},
-/turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/cargo)
+/turf/open/space/basic,
+/area/space)
 "FA" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/iron/dark/textured_large,
@@ -1832,6 +1920,13 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+"Gb" = (
+/obj/machinery/mineral/stacking_unit_console{
+	pixel_x = 1;
+	pixel_y = -5
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Gh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1934,10 +2029,9 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Is" = (
-/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
-/obj/machinery/door/window/survival_pod/left/directional/north,
+/obj/machinery/vending/games,
 /turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Iu" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/trinary/mixer/airmix/inverse{
@@ -1946,9 +2040,10 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "IC" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/ruin/space/has_grav/cargodise_freighter/cargo)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/space/has_grav/cargodise_freighter/utility)
 "IH" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker,
 /turf/open/floor/iron/dark/textured_large,
@@ -1993,9 +2088,13 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Jk" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/ruin/space/has_grav/cargodise_freighter/trauma)
+/obj/structure/lattice/catwalk,
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 32;
+	pixel_y = 3
+	},
+/turf/open/space/basic,
+/area/ruin/space/has_grav/cargodise_freighter/exterior)
 "Jz" = (
 /turf/closed/wall/r_wall/plastitanium/syndicate,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
@@ -2038,9 +2137,12 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Ks" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 33;
+	pixel_y = 0
+	},
+/turf/open/space/basic,
+/area/space)
 "Kv" = (
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/iron/dark/textured_large,
@@ -2055,8 +2157,8 @@
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "KB" = (
 /obj/machinery/light/directional/north,
-/obj/machinery/computer/mech_bay_power_console,
 /obj/machinery/camera/xray/directional/north,
+/obj/vehicle/sealed/mecha/odysseus,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
 "KH" = (
@@ -2071,7 +2173,12 @@
 /obj/item/storage/toolbox/electrical,
 /obj/item/clothing/gloves/color/yellow,
 /obj/item/clothing/gloves/chief_engineer/expeditionary_corps,
-/obj/item/fireaxe,
+/obj/item/fireaxe{
+	name = "Marked fire axe";
+	desc = "What seams to be a normal fire axe that's been personalized by its owner, leather straps tied around its handle and metal plates reinforcing both the base and the head.";
+	block_chance = 50;
+	armour_penetration = 75
+	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "Ls" = (
@@ -2117,6 +2224,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "Mt" = (
+/obj/item/bitrunning_disk/prefs,
 /obj/machinery/netpod,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
@@ -2300,9 +2408,9 @@
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
 "QK" = (
-/obj/machinery/porta_turret/centcom_shuttle,
-/turf/closed/wall/r_wall/plastitanium/syndicate,
-/area/ruin/space/has_grav/cargodise_freighter/hydroponics)
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "QR" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
@@ -2312,9 +2420,12 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/hydroponics)
 "QV" = (
-/obj/machinery/vending/liberationstation,
-/turf/open/floor/mineral/plastitanium,
-/area/ruin/space/has_grav/cargodise_freighter/vault)
+/obj/structure/mecha_wreckage/durand{
+	name = "Magi Suit Prototype V";
+	desc = "A half asembled/disasembled mech power armor hydrid of magical nature developed by Rafael."
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Rl" = (
 /obj/machinery/light_switch/directional/west,
 /turf/open/floor/wood,
@@ -2328,6 +2439,16 @@
 	},
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
+"Ry" = (
+/obj/structure/closet/emcloset/wall{
+	pixel_y = -26
+	},
+/obj/machinery/door/airlock/vault{
+	name = "EXPRESS"
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/bridge)
 "Rz" = (
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
@@ -2341,6 +2462,10 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"RE" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "RF" = (
 /obj/machinery/dna_scannernew,
 /obj/machinery/light_switch/directional/north,
@@ -2356,9 +2481,12 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/primaryhall)
 "Si" = (
-/obj/machinery/nova/fan/self_powered,
-/turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/bridge)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/space/basic,
+/area/space)
 "Sx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2382,6 +2510,10 @@
 /obj/machinery/camera/xray/directional/east,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
+"SY" = (
+/obj/machinery/nova/fan/self_powered,
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Te" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/deck,
@@ -2440,6 +2572,7 @@
 "TG" = (
 /obj/machinery/airalarm/directional/south,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/bridge)
 "TH" = (
@@ -2485,6 +2618,13 @@
 /obj/machinery/power/tracker,
 /turf/open/floor/iron/solarpanel/airless,
 /area/ruin/space/has_grav/cargodise_freighter/exterior)
+"Us" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = 0;
+	pixel_y = 34
+	},
+/turf/open/space/basic,
+/area/space)
 "Uu" = (
 /turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
 /area/ruin/space/has_grav/cargodise_freighter/kitchen)
@@ -2496,10 +2636,7 @@
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
 "UN" = (
 /obj/machinery/light/directional/north,
-/obj/structure/mecha_wreckage/durand{
-	name = "Magi Suit Prototype V";
-	desc = "A half asembled/disasembled mech power armor hydrid of magical nature developed by Rafael."
-	},
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
 "UQ" = (
@@ -2515,7 +2652,9 @@
 "Vr" = (
 /obj/vehicle/ridden/speedbike{
 	name = "Majicycle";
-	desc = "A floating motocycle made almost exclusevly with magical materials, a one of a kind in this realm"
+	desc = "A floating motocycle made almost exclusevly with magical materials, a one of a kind in this realm";
+	pixel_x = -16;
+	pixel_y = 4
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
@@ -2539,7 +2678,7 @@
 /area/ruin/space/has_grav/cargodise_freighter/bridge)
 "VI" = (
 /obj/machinery/power/micro_reactor{
-	desc = "Another development from XEDRA, this one originating from the thaumalurgycal R&D department. Uses condensed mana crystals to generate aproximatly 1GW of power.";
+	desc = "Another development from XEDRA, this one originating from the thaumalurgycal R&D department. Uses condensed mana crystals to generate aproximatly 1MW of power.";
 	name = "Crystalized mana reactor";
 	power_gen = 1007500
 	},
@@ -2706,9 +2845,12 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/utility)
 "XF" = (
-/obj/vehicle/sealed/mecha/odysseus,
-/turf/open/floor/iron/dark/textured_large,
-/area/ruin/space/has_grav/cargodise_freighter/cargo)
+/obj/machinery/porta_turret/centcom_shuttle{
+	pixel_x = -28;
+	pixel_y = 1
+	},
+/turf/open/space/basic,
+/area/space)
 "XH" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2783,6 +2925,7 @@
 	},
 /obj/item/clothing/head/helmet/marine,
 /obj/item/clothing/suit/armor/vest/marine,
+/obj/item/market_uplink/blackmarket,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/cargodise_freighter/quarters)
 "Yw" = (
@@ -2822,7 +2965,8 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/space/has_grav/cargodise_freighter/trauma)
 "Zc" = (
-/obj/machinery/computer/quantum_console,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/cargodise_freighter/cargo)
 "Ze" = (
@@ -4386,11 +4530,11 @@ Cm
 Cm
 Cm
 Cm
-Cm
+Fy
 rg
 Ps
 rg
-fR
+Jk
 fR
 fR
 fR
@@ -4453,6 +4597,7 @@ Cm
 Cm
 Cm
 Cm
+Fc
 Cm
 Cm
 Cm
@@ -4462,8 +4607,7 @@ Cm
 Cm
 Cm
 Cm
-Cm
-Dz
+eJ
 rg
 jA
 Ds
@@ -4474,7 +4618,7 @@ ga
 ga
 ga
 ga
-Cm
+BS
 Cm
 Cm
 Cm
@@ -4526,11 +4670,11 @@ Cm
 Cm
 Cm
 Cm
-Cm
+Si
 Jz
 zr
 zr
-sd
+zr
 zr
 zr
 zr
@@ -4551,7 +4695,7 @@ Gt
 Gt
 Gt
 Gt
-QK
+Qq
 Cm
 Cm
 Cm
@@ -4603,7 +4747,7 @@ Cm
 Cm
 Cm
 Cm
-xv
+Jz
 zr
 IK
 EW
@@ -4707,8 +4851,8 @@ qS
 qS
 qV
 Gt
-QK
-Cm
+Qq
+qP
 Cm
 Cm
 Cm
@@ -4754,7 +4898,7 @@ Cm
 Cm
 Cm
 Cm
-Cm
+Ks
 Dx
 Bt
 Ak
@@ -4764,7 +4908,7 @@ px
 CP
 zr
 Yi
-Fc
+yZ
 Uu
 QG
 Md
@@ -4831,7 +4975,7 @@ Cm
 Cm
 Cm
 Cm
-sa
+Dx
 Bt
 MH
 SB
@@ -4918,7 +5062,7 @@ EW
 Cx
 zr
 Yi
-yZ
+Is
 Uu
 fN
 JR
@@ -4981,14 +5125,14 @@ Cm
 Cm
 Cm
 Cm
-Cm
+ct
 Cm
 Cm
 Dx
 Bt
 qw
 SB
-QV
+SB
 zr
 AS
 lK
@@ -5059,7 +5203,7 @@ Cm
 Cm
 Cm
 Ed
-Ks
+ea
 ea
 ea
 ea
@@ -5093,8 +5237,8 @@ KA
 hG
 BW
 Gt
-QK
-Cm
+Qq
+sa
 Cm
 Cm
 Cm
@@ -5319,7 +5463,7 @@ lk
 zM
 ER
 sO
-Fi
+Hu
 he
 he
 oF
@@ -5395,7 +5539,7 @@ dL
 wo
 Xv
 Hi
-lo
+IC
 Hu
 he
 he
@@ -5825,7 +5969,7 @@ Cm
 Cm
 Cm
 Cm
-qP
+qc
 Bg
 GW
 TH
@@ -5838,7 +5982,7 @@ th
 Yo
 rr
 Rl
-QC
+dg
 Rz
 xE
 SI
@@ -5905,25 +6049,25 @@ Cm
 qc
 qc
 XY
-Si
-Is
-nu
+TH
+TH
+TH
 nO
 ea
-Bn
+Dz
 pl
 pl
 pl
 Bn
-dg
+wO
 Rz
 KB
 SI
-SI
+QV
 SI
 Sx
-SI
-SI
+ZL
+Fi
 SI
 Cl
 Rz
@@ -5983,9 +6127,9 @@ Cm
 qc
 qc
 Bo
-go
 TH
-Bw
+ea
+Ry
 ea
 fe
 pl
@@ -5994,15 +6138,15 @@ Or
 OK
 hy
 Rz
-Pl
+go
 SI
-SI
+go
 SI
 Sx
 fQ
-Zc
-SI
 MM
+SI
+eo
 Rz
 VJ
 wJ
@@ -6061,8 +6205,8 @@ Cm
 qc
 ea
 TH
-gU
-TH
+ea
+ag
 ea
 xO
 pl
@@ -6071,9 +6215,9 @@ ed
 Bn
 nY
 Rz
-du
+cr
 SI
-SI
+cr
 hB
 Sx
 sM
@@ -6137,7 +6281,7 @@ Cm
 Cm
 Cm
 Ed
-Ks
+ea
 ea
 ea
 ea
@@ -6148,7 +6292,7 @@ pl
 Bn
 rq
 Rz
-cr
+Pl
 SI
 SI
 SI
@@ -6171,8 +6315,8 @@ aQ
 Hw
 Pv
 hh
-Jk
-Cm
+ZN
+sa
 Cm
 Cm
 Cm
@@ -6213,7 +6357,7 @@ Cm
 Cm
 Cm
 Cm
-Cm
+gU
 Cm
 Cm
 Jz
@@ -6225,13 +6369,13 @@ cY
 su
 VB
 Rz
-Pl
-ZL
+du
 SI
+Gb
 tH
 Sx
-Fy
-SI
+lu
+Yl
 lj
 PC
 Rz
@@ -6294,7 +6438,7 @@ Cm
 Cm
 Cm
 Cm
-xv
+Jz
 zr
 zr
 zr
@@ -6302,12 +6446,12 @@ zr
 zr
 vh
 Rz
-XF
+SI
+SY
+nu
 SI
 SI
-lu
-SI
-SI
+VW
 SI
 lj
 UK
@@ -6371,7 +6515,7 @@ Cm
 Cm
 Cm
 Cm
-Cm
+xv
 Jz
 zr
 qU
@@ -6379,13 +6523,13 @@ yl
 WN
 FX
 Rz
-cr
-SI
-SI
+QK
+dr
+Zc
 SI
 SI
 hB
-Yl
+SI
 lj
 Ho
 Ze
@@ -6456,9 +6600,9 @@ zr
 TW
 FX
 Rz
-Pl
 SI
 SI
+ne
 SI
 SI
 SI
@@ -6528,14 +6672,14 @@ Cm
 Cm
 Cm
 Cm
-xv
+Jz
 zr
 IU
 ig
 Rz
 UN
-SI
-SI
+RE
+DV
 SI
 SI
 SI
@@ -6555,8 +6699,8 @@ Hw
 Hw
 lB
 YR
-Jk
-Cm
+ZN
+Us
 Cm
 Cm
 Cm
@@ -6605,12 +6749,12 @@ Cm
 Cm
 Cm
 Cm
-Cm
+gU
 Jz
 zr
 AX
 Rz
-VW
+SI
 Kv
 SI
 SI
@@ -6686,7 +6830,7 @@ Cm
 Cm
 Jz
 zr
-IC
+Rz
 Rz
 Rz
 Jc
@@ -6707,8 +6851,8 @@ hh
 hh
 hh
 hh
-Jk
-Cm
+ZN
+sa
 Cm
 Cm
 Cm
@@ -6763,6 +6907,7 @@ Cm
 Cm
 Cm
 Cm
+rm
 Cm
 Cm
 Cm
@@ -6772,8 +6917,7 @@ Cm
 Cm
 Cm
 Cm
-Cm
-Dz
+eJ
 rg
 jA
 JG
@@ -6850,11 +6994,11 @@ Cm
 Cm
 Cm
 Cm
-Cm
+XF
 rg
 ip
 rg
-fR
+sd
 fR
 fR
 fR
